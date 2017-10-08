@@ -28,11 +28,13 @@ div#squiffy-container
 div#squiffy-header
 {
     font-size: 14px;
+    background: black;
     text-align: right;
 }
 div#squiffy
 {
     font-size: 18px;
+    background: black;
 }
 hr {
     border: 0;
