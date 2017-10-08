@@ -1,7 +1,8 @@
-div#body-color {
-    background-color: pink !important;
-    text-color: yellow !important;
-    }
+body
+{
+    background-color: lightblue;
+}
+
 a.squiffy-link
 {
     text-decoration: underline;
