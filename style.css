@@ -1,6 +1,6 @@
 div#body-color {
-    background-color: pink important;
-    text-color: yellow important;
+    background-color: pink !important;
+    text-color: yellow !important;
     }
 a.squiffy-link
 {
