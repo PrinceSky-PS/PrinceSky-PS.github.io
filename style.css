@@ -18,6 +18,14 @@ a.squiffy-header-link
     background: black;
     cursor: pointer;
 }
+
+div#background
+{
+    max-width: 100%;
+    background: black;
+    color: white;
+}
+
 div#squiffy-container
 {
     max-width: 100%;
