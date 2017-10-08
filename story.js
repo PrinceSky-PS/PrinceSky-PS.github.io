@@ -626,7 +626,7 @@ var set = squiffy.set;
 
 
 squiffy.story.start = '_default';
-squiffy.story.id = '82dbd86b8d';
+squiffy.story.id = '15f9684609';
 squiffy.story.sections = {
 	'_default': {
 		'text': "<center><font size=\"6\"><b><u>Pokemon Journey</b></u></font><br></center>\n<br>\nWelcome this is the world inhabited not only by humans, but also by the mysterious and wonderful creatures know as <b>Pokèmon</b>. Roaming the land, swimming in the ocean, soaring through the skies, in towns and even in people&#39;s homes, pokèmon can be found everywhere. In most cases people and pokèmon lives together in harmony, helping each other and keeping each other company. Many people travel the world, befriending and capturing the wild pokèmons and battle with them with others, like them in friendly compititons. Those are the pokèmon trainers, be it in groups or alone with their pokèmon, most trainers travel across many regions in the pokèmon world, seeking to improve their skills by challenging pokemon gyms in the towns and the cities they visit, in the aim to participte in the prestigioes <b>Pokèmon Leagues</b>, that each regions hosts.<br>\n<center><b><u><a class=\"squiffy-link link-section\" data-section=\"Let's Get Started\" role=\"link\" tabindex=\"0\">Let&#39;s Get Started</a></u></b></center>",
@@ -684,7 +684,7 @@ squiffy.story.sections = {
 				'text': "<p>You walked ahead and saw <a class=\"squiffy-link link-passage\" data-passage=\"flowers\" role=\"link\" tabindex=\"0\">flowers</a>.</p>",
 			},
 			'flowers': {
-				'text': "<p>You saw beautifull red and white roses. &quot;They are so beautiful&quot; You throught.</p>",
+				'text': "<p>You saw beautiful red and white roses. &quot;They are so beautiful&quot; You thought.</p>",
 			},
 			'@4': {
 				'text': "<p>You walked further and saw small heart shaped <a class=\"squiffy-link link-passage\" data-passage=\"fountain\" role=\"link\" tabindex=\"0\">fountain</a>.</p>",
@@ -718,8 +718,11 @@ squiffy.story.sections = {
 		},
 	},
 	'Go In The Lab': {
-		'text': "",
+		'text': "<p><b>8:58am, 1st April 2017.</b><br><br>\n&quot;Looks like you finally showed up!&quot;<br><br>\nYou let out an exasperated sigh as you walked up the steps to the lab entrance. &quot;I&#39;m still just as early as you dean!&quot; You replied loudly.<br><br>\nDean walker, a slightly skinnier boy than you, had dark brown eyes and lightish brown hair, cut short like you. He was wearing a dark red T-shirt and a pair of black shorts which reached to just under his knees. He also had a red and orange coloured backpack on his back.<br><br>\n&quot;I&#39;m surprised you showed in the end!&quot;, dean laughed. &quot;Everyone knows you&#39;re getting a pokemon because everyone else is!&quot;<br><br>\n&quot;And?&quot; You replied coldly. &quot;Even if i&#39;m only going to be a casual trainer, I&#39;ll still be able to beat you.&quot;<br><br>\nYou and Dean had known each other since, you had first moved to pallet town and started school there. They&#39;d once been friends. Rather childishly, however? an intense rivalry had begun between them when they both developed a crush on the same girl. The rivalry had continued, maybe even intensified, even after the girl had moved away to another region.<br><br>\n&quot;I&#39;ll believe it when I see it!&quot; Dean laughes mockingly.<br><br>\nJust as You was about to respond, they heard the door open. An ageing man in his fifties with grey hair and a lab coat emerged.<br><br>\n&quot;I thought I heard the two of you out here&quot;, He smiled at both. &quot;Come on in <b>James</b> and <b>Dean</b>&quot; He gestured to the door behind him.<br><br>\n&quot;Thanks professor Oak&quot; You replied, following him in. Professor Oak is one of the leading figures in pokemon research, reowned worldwide. He is popularly know as &#39;Pokemon Professor&#39;.<br><br>\n&quot;So, where are the pokemons?&quot; Dean asked as you two passed a room with full of electrical machines, you <a class=\"squiffy-link link-passage\" data-passage=\"saw\" role=\"link\" tabindex=\"0\">saw</a></p>",
 		'passages': {
+			'saw': {
+				'text': "<p> two of Oak&#39;s assistants were working with these electrical machines.<br><br>&quot;Just through here&quot;, Oak replied, leaving you and dean into a well-lit room at the centre of which stood a small coffee table and two sofas either side of it. Atop the table were three pokeballs. The top halves of there balls were red and the bottom halvss were white. At the dividing line between the two halves , there were small bottons. &quot;These are pokeballs&quot; Oak explained, gently scooping up the first one.<br><br>\n&quot;We know what the pokeballs are, Professor&quot;, You pointed out to him.<br><br>\n&quot;Yeah&quot;, Dead nodded. &quot;They&#39;re used to catch and store pokemon. One of the starter pokemon is in that ond, right?&quot;<br><br>\n&quot;That&#39;s right&quot;, Oak nodded. &quot;This one is the grass type pokemon, <font color=\"green\"><b>bulbasaur</b></font></p>",
+			},
 			'passage link': {
 				'text': "<p>This is the text for the first passage link.</p>",
 			},
