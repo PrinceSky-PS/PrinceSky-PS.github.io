@@ -1,6 +1,3 @@
-// Created with Squiffy 5.1.0
-// https://github.com/textadventures/squiffy
-
 (function(){
 /* jshint quotmark: single */
 /* jshint evil: true */
