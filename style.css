@@ -1,11 +1,9 @@
-body
-{
-    background-color: lightblue;
-}
+
 
 a.squiffy-link
 {
     text-decoration: underline;
+    background-color: yellow;
     color: Blue;
     cursor: pointer;
 }
