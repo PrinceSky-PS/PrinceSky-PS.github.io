@@ -6,6 +6,6 @@
 <br>
 <b><font size="6">Contributors</font></b>
 <hr>
-<b><font size="4">Talarc</b> - Original Story.
-<br
-<b><font size="4">Githu</b> - Host.</font>
+<b><font size="4">Talarc</b> - Original Story.</font>
+<br>
+<b><font size="4">Github</b> - Host.</font>
