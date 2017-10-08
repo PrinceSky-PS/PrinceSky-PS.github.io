@@ -2,18 +2,20 @@ a.squiffy-link
 {
     text-decoration: underline;
     color: pink;
+    background: black;
     cursor: pointer;
 }
 a.squiffy-link.disabled
 {
     text-decoration: inherit;
-    color: inherit !important;
+    color: black !important;
     cursor: inherit;
 }
 a.squiffy-header-link
 {
     text-decoration: underline;
     color: green;
+    background: black;
     cursor: pointer;
 }
 div#squiffy-container
