@@ -1,4 +1,3 @@
-// Created with Squiffy 5.1.0
 
 (function(){
 /* jshint quotmark: single */
