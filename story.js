@@ -626,43 +626,43 @@ var set = squiffy.set;
 
 
 squiffy.story.start = '_default';
-squiffy.story.id = '4b5cec3edf';
+squiffy.story.id = '21f59667cb';
 squiffy.story.sections = {
 	'_default': {
-		'text': "<center><font size=\"6\"><font color=\"#990000\"><b><u>Pokemon Journey</b></u></font></font><br></center>\n<br>\nWelcome this is the world inhabited not only by humans, but also by the mysterious and wonderful creatures know as <b>Pokèmon</b>. Roaming the land, swimming in the ocean, soaring through the skies, in towns and even in people&#39;s homes, pokèmon can be found everywhere. In most cases people and pokèmon lives together in harmony, helping each other and keeping each other company. Many people travel the world, befriending and capturing the wild pokèmons and battle with them with others, like them in friendly compititons. Those are the pokèmon trainers, be it in groups or alone with their pokèmon, most trainers travel across many regions in the pokèmon world, seeking to improve their skills by challenging pokemon gyms in the towns and the cities they visit, in the aim to participte in the prestigioes <b>Pokèmon Leagues</b>, that each regions hosts.<br>\n<center><b><u><a class=\"squiffy-link link-section\" data-section=\"Let's Get Started\" role=\"link\" tabindex=\"0\">Let&#39;s Get Started</a></u></b></center>",
+		'text': "<center><font size=\"6\"><b><u>Pokemon Journey</b></u></font><br></center>\n<br>\nWelcome this is the world inhabited not only by humans, but also by the mysterious and wonderful creatures know as <b>Pokèmon</b>. Roaming the land, swimming in the ocean, soaring through the skies, in towns and even in people&#39;s homes, pokèmon can be found everywhere. In most cases people and pokèmon lives together in harmony, helping each other and keeping each other company. Many people travel the world, befriending and capturing the wild pokèmons and battle with them with others, like them in friendly compititons. Those are the pokèmon trainers, be it in groups or alone with their pokèmon, most trainers travel across many regions in the pokèmon world, seeking to improve their skills by challenging pokemon gyms in the towns and the cities they visit, in the aim to participte in the prestigioes <b>Pokèmon Leagues</b>, that each regions hosts.<br>\n<center><b><u><a class=\"squiffy-link link-section\" data-section=\"Let's Get Started\" role=\"link\" tabindex=\"0\">Let&#39;s Get Started</a></u></b></center>",
 		'passages': {
 		},
 	},
 	'Let\'s Get Started': {
-		'text': "<p><font color=\"#990000\"><b>Pallet Town, Kanto.<br>\n7:30am, 1st April 2017.</b></font><br><br>\nThe magnificent beat down upon the town of pallet in the south of kanto. Only the few wispy clouds could be seen as the early bird&#39;s among the town&#39;s population started appearing out of their houses. A large flock of tiny bird pokèmon, <b>pidgey</b>, soared overhead in the direction of imposing Mt. Hideway to the west. The town itself  was mostly of deep green colour, thanks to abundance of trees and flower gardens. There was a slight chill in the air. However a reminder that it was not yer summer. The peace and quiet of the town was interrupted briefly as a ferry leaving, Pallet&#39;s small port in the south, sounded it&#39;s whistle loudly as it sets at the sea.<br><br>\nIn the north western suburbs of town, inside a rectangular pale yellow coloured house, a twovelve year old boy was busily getting ready. He scratched, short brown hair, cut the previous day, as he stared at the clothes, He&#39;d laid down on his bed, he frowned as he attempted to decide, what he should wear, His blue eyes showed his irritation at being unable to make dicision.<br>\n&quot;James!&quot;, <font color=\"#990000\">You heard your mother calling.</font><br>\n&quot;Are you ready for breakfast yet?&quot;<br><br>\n&quot;You&#39;re still not dressed yet?&quot; Your younger brother, <b>Tom</b> asked as he poked his head round the door.<br><br>\n&quot;No&quot;, You replied, shaking your head.<br><br>\n&quot;Why don&#39;t you just wear your favorite clothes?&quot;, <b>Tom</b> asked.<br><br>\n&quot;They&#39;re not really smart enough&quot;, You replied with a sigh.<br><br>\n&quot;Then how about a shirt and tie?&quot;<br><br>\n&quot;That&#39;s a little smart.&quot;<br><br>\n&quot;I didn&#39;t think that pokèmon trainers needed to dress smartly&quot;, <b>Will</b> your middle brother, appeared in the doorway and joined the conversation.<br>\n&quot;Why don&#39;t you wear the clothes that grandma got you for your birthday?&quot;<br><br>\nYou thought for a second.<br><center><b><u><a class=\"squiffy-link link-section\" data-section=\"Wear Grandma's Gifted Clothes\" role=\"link\" tabindex=\"0\">Wear Grandma&#39;s Gifted Clothes</a><br> <a class=\"squiffy-link link-section\" data-section=\"Wear Something From Pile Of Clothes\" role=\"link\" tabindex=\"0\">Wear Something From Pile Of Clothes</a></u></b></center></p>",
+		'text': "<p><b>Pallet Town, Kanto.<br>\n7:30am, 1st April 2017.</b><br><br>\nThe magnificent beat down upon the town of pallet in the south of kanto. Only the few wispy clouds could be seen as the early bird&#39;s among the town&#39;s population started appearing out of their houses. A large flock of tiny bird pokèmon, <b>pidgey</b>, soared overhead in the direction of imposing Mt. Hideway to the west. The town itself  was mostly of deep green colour, thanks to abundance of trees and flower gardens. There was a slight chill in the air. However a reminder that it was not yer summer. The peace and quiet of the town was interrupted briefly as a ferry leaving, Pallet&#39;s small port in the south, sounded it&#39;s whistle loudly as it sets at the sea.<br><br>\nIn the north western suburbs of town, inside a rectangular pale yellow coloured house, a twovelve year old boy was busily getting ready. He scratched, short brown hair, cut the previous day, as he stared at the clothes, He&#39;d laid down on his bed, he frowned as he attempted to decide, what he should wear, His blue eyes showed his irritation at being unable to make dicision.<br><br>\n&quot;James!&quot; <i><b>You</b> heard your mother calling.</i><br><br>\n&quot;Are you ready for breakfast yet?&quot;<br><br>\n&quot;You&#39;re still not dressed yet?&quot; <i>Your younger brother, <b>Tom</b> asked as he poked his head round the door.</i><br><br>\n&quot;No&quot;, <i><b>You</b> replied, shaking your head.</i><br><br>\n&quot;Why don&#39;t you just wear your favorite clothes?&quot; <i><b>Tom</b> asked.</i><br><br>\n&quot;They&#39;re not really smart enough&quot;<i> <b>You</b> replied with a sigh.</i><br><br>\n&quot;Then how about a shirt and tie?&quot;<br><br>\n&quot;That&#39;s a little smart.&quot;<br><br>\n&quot;I didn&#39;t think that pokèmon trainers needed to dress smartly&quot; <i><b>Will</b> your middle brother, appeared in the doorway and joined the conversation.</i> &quot;Why don&#39;t you wear the clothes that grandma got you for your birthday?&quot;<br><br>\n<i><b>You</b> thought for a second.</i><br><center><b><u><a class=\"squiffy-link link-section\" data-section=\"Wear Grandma's Gifted Clothes\" role=\"link\" tabindex=\"0\">Wear Grandma&#39;s Gifted Clothes</a><br> <a class=\"squiffy-link link-section\" data-section=\"Wear Something From Pile Of Clothes\" role=\"link\" tabindex=\"0\">Wear Something From Pile Of Clothes</a></u></b></center></p>",
 		'passages': {
 		},
 	},
 	'Wear Grandma\'s Gifted Clothes': {
-		'text': "<p>&quot;Alright&quot;, You nodded, grabbing the yellow T-shirt and thr pair of dark blue jeans from the box, grandma gifted you on your birthday.<br><br>\n&quot;Do you want a jacket?&quot;, <b>Will</b> asked.<br><br>\n&quot;It&#39;s still only april&quot;, You replied, giving him a look. &quot;Or were you hoping that I&#39;d die from hypothermia?&quot;<br><br>\n&quot;How about this one?&quot;, <b>Tom</b> picked up an unzipped and slightly faded red jacket. &quot;This is Dad&#39;s old one, so it doesn&#39;t matter if you ruin it&quot;<br><br>\n&quot;I won&#39;t ruin it&quot;, You snapped, snatching the jacket from his hands. &quot;I&#39;m getting changed now, so both of you leave!&quot;<br><br>&quot;James!&quot;, Their <b>mother</b> called again.\n<br><center><b><u><a class=\"squiffy-link link-section\" data-section=\"Go Downstairs\" role=\"link\" tabindex=\"0\">Go Downstairs</a></u></b></center></p>",
+		'text': "<p>&quot;Alright&quot;<i><b> You</b> nodded, grabbing the yellow T-shirt and thr pair of dark blue jeans from the box, grandma gifted you on your birthday.</i><br><br>\n&quot;Do you want a jacket?&quot;<i> <b>Will</b> asked.</i><br><br>\n&quot;It&#39;s still only april&quot;<i> <b>You</b> replied, giving him a look.</i> &quot;Or were you hoping that I&#39;d die from hypothermia?&quot;<br><br>\n&quot;How about this one?&quot; <i><b>Tom</b> picked up an unzipped and slightly faded red jacket.</i> &quot;This is Dad&#39;s old one, so it doesn&#39;t matter if you ruin it&quot;<br><br>\n&quot;I won&#39;t ruin it&quot;<i><b> You</b> snapped, snatching the jacket from his hands.</i> &quot;I&#39;m getting changed now, so both of you leave!&quot;<br><br>&quot;James!&quot; <i><b>Your</b> <b>mother</b> called again.</i>\n<br><center><b><u><a class=\"squiffy-link link-section\" data-section=\"Go Downstairs\" role=\"link\" tabindex=\"0\">Go Downstairs</a></u></b></center></p>",
 		'passages': {
 		},
 	},
 	'Wear Something From Pile Of Clothes': {
-		'text': "<p>&quot;Alright&quot;, You nodded, grabbing the mustard dark blue T-shirt and the pair of black jeans from the pile.<br><br>\n&quot;Do you need a jacket?&quot;, <b>Will</b> asked.<br><br>\n&quot;No thanks, It&#39;s still only april&quot;, You replied, giving him a smile.<br><br>\n&quot;James!&quot;, Their <b>mother</b> called again.<br><center><b><u><a class=\"squiffy-link link-passage\" data-passage=\"Turn On Tv\" role=\"link\" tabindex=\"0\">Turn On Tv</a></u></b></center></p>",
+		'text': "<p>&quot;Alright&quot; <i><b>You</b> nodded, grabbing the mustard dark blue T-shirt and the pair of black jeans from the pile.</i><br><br>\n&quot;Do you need a jacket?&quot;<i><b>Will</b> asked.</i><br><br>\n&quot;No thanks, It&#39;s still only april&quot; <i><b>You</b> replied, giving him a smile.</i><br><br>\n&quot;James!&quot; <i><b>Your</b> mother&lt; called again.</i><br><center><b><u><a class=\"squiffy-link link-passage\" data-passage=\"Turn On Tv\" role=\"link\" tabindex=\"0\">Turn On Tv</a></u></b></center></p>",
 		'passages': {
 			'Turn On Tv': {
-				'text': "<p>&quot;In a minute&quot;, You called back, as <b>tom</b> and <b>will</b> trooped out of the room and went downstairs. You quickly pulled on your clothes and turned on the tv.<br><br><center><b>Reporter:</b> Broadcasting live from <b>cerulean city</b> gym, few moments ago we watched, intense battle between the cerulean city gym leader <b>Misty</b> and trainer <b>Alan</b>, who is from kalos region, that&#39;s all for today, see you tomorrow at the same time.</center><br>&quot;Ah, It&#39;s over already, I should go downstairs or mom will shout again&quot; You said and started going downstairs.<br><center><b><u><a class=\"squiffy-link link-section\" data-section=\"Go Downstairs\" role=\"link\" tabindex=\"0\">Go Downstairs</a></u></b></center></p>",
+				'text': "<p>&quot;In a minute&quot;<i> <b>You</b> called back, as <b>tom</b> and <b>will</b> trooped out of the room and went downstairs. You quickly pulled on your clothes and turned on the tv.</i><br><br><center><b>Reporter:</b> Broadcasting live from <b>cerulean city</b> gym, few moments ago we watched, intense battle between the cerulean city gym leader <b>Misty</b> and trainer <b>Alan</b>, who defeated misty and won the  cascade badge. that&#39;s all for today, see you tomorrow at the same time.</center><br>&quot;Ah, the battle is over already, I should go downstairs or mom will shout again&quot; <i><b>You</b> whispered and went downstairs.</i><br><center><b><u><a class=\"squiffy-link link-section\" data-section=\"Go Downstairs\" role=\"link\" tabindex=\"0\">Go Downstairs</a></u></b></center></p>",
 			},
 		},
 	},
 	'Go Downstairs': {
-		'text': "<p>&quot;You need to be at the lab before 9&#39;O clock right?&quot;, Your mom, checked with you as you sat down and took a bite of your bacon and egg sandswitch. You quickly swallowed the mouthful.<br><br>\n&quot;That&#39;s right&quot;, You nodded, &quot;What time it is now?&quot;<br><br>\n&quot;Eight&quot;, Mom replied, &quot;It&#39;s better to get there early rather than later, so i think you should set off as soon as you finish eating.&quot;<br><br>\n&quot;Alright&quot;, You replied.<br><br>\n&quot;Morning, Everyone&quot;, Your dad <b>Peter</b> grinned, as he came into the kitchen.<br><br>\n&quot;Morning!&quot;, everyone else called back as he sat down at the dinner table. In your&#39;house, the dinning room and kitchen were both in a single, long room which ran from the front of the house to the back. The front third was the kitchen, with doors both to the front hall and outside, while the dinning room made up the remaining two thirds. A line of counters marked the dividing line between the two, which a gap on one side to allow movement between the two sections.<br><br>\n&quot;How are you feeling?&quot;, Dad asked you.<br><br>\n&quot;Nervous&quot;, You admitted. &quot;But excited at the same time.&quot;<br><br>\n&quot;That&#39;s to be expected!&quot;, Dad laughed, patting you on the shoulder. &quot;I look forward to meeting your first pokemon when i get back from work.&quot;<br><br>\n&quot;Sure&quot;, You nodded, you stood up as you finished your breakfast and took your plate over to thr dishwasher5. &quot;I&#39;ll be back soon as I&#39;m done at thd lab!&quot; You called to mom.<br><br>\n&quot;Alright&quot;, Mom smiled back at you. &quot;Good Luck!&quot;<br><br>\n&quot;Thanks&quot;, You grinned back before running out of home.<br></p>\n<center><u><b><a class=\"squiffy-link link-section\" data-section=\"Go To Pokemon Lab\" role=\"link\" tabindex=\"0\">Go To Pokemon Lab</a></b></u></center>",
+		'text': "<p>&quot;You need to be at the lab before 9&#39;O clock right?&quot; <i><b>Your mom</b>, checked with you as you sat down and took a bite of your bacon and egg sandswitch. You quickly swallowed the mouthful.</i><br><br>\n&quot;That&#39;s right&quot;<i><b>You</b> nodded.</i> &quot;What time it is now?&quot;<br><br>\n&quot;Eight&quot; <i><b>Mom</b> replied.</i> &quot;It&#39;s better to get there early rather than later, so i think you should set off as soon as you finish eating.&quot;<br><br>\n&quot;Alright&quot;<i><b> You</b> replied.</i><br><br>\n&quot;Morning, Everyone&quot; <i>Your dad <b>Peter</b> grinned, as he came into the kitchen.</i><br><br>\n&quot;Morning!&quot; <i>everyone else called back as he sat down at the dinner table. In your home, the dinning room and kitchen were both in a single, long room which ran from the front of the house to the back. The front third was the kitchen, with doors both to the front hall and outside, while the dinning room made up the remaining two thirds. A line of counters marked the dividing line between the two, which a gap on one side to allow movement between the two sections.</i><br><br>\n&quot;How are you feeling?&quot;<i><b> Dad</b> asked you.</i><br><br>\n&quot;Nervous&quot; <i><b>You</b> admitted.</i> &quot;But excited at the same time.&quot;<br><br>\n&quot;That&#39;s to be expected!&quot;<i><b> Dad</b> laughed, patting you on the shoulder.</i> &quot;I look forward to meeting your first pokemon when i get back from work.&quot;<br><br>\n&quot;Sure&quot; <i><b>You</b> nodded, you stood up as you finished your breakfast and took your plate over to the dishwasher.</i> &quot;I&#39;ll be back soon as I&#39;m done at the lab!&quot; <i><b>You</b> called to mom.</i><br><br>\n&quot;Alright&quot; <i><b>Mom</b> smiled back at you.</i> &quot;Good Luck!&quot;<br><br>\n&quot;Thanks&quot;<i><b> You</b> grinned back before running out of home.</i><br></p>\n<center><u><b><a class=\"squiffy-link link-section\" data-section=\"Go To Pokemon Lab\" role=\"link\" tabindex=\"0\">Go To Pokemon Lab</a></b></u></center>",
 		'passages': {
 		},
 	},
 	'Go To Pokemon Lab': {
-		'text': "<p>You looked at your watch and the time is 8:30am. &quot;It will be too early to go at the lab, so what should i do?&quot;, You thought, while standing in middle of the town.<br><center><b><u><a class=\"squiffy-link link-section\" data-section=\"Go To Flower Garden\" role=\"link\" tabindex=\"0\">Go To Flower Garden</a><br><a class=\"squiffy-link link-section\" data-section=\"Go Towards Route 1\" role=\"link\" tabindex=\"0\">Go Towards Route 1</a></u></b></center></p>",
+		'text': "<p><i>You looked at your watch and the time is 8:30am. &quot;It will be too early to go at the lab, so what should i do?&quot;, You thought, while standing in middle of the town.</i><br><center><b><u><a class=\"squiffy-link link-section\" data-section=\"Go To Flower Garden\" role=\"link\" tabindex=\"0\">Go To Flower Garden</a><br><a class=\"squiffy-link link-section\" data-section=\"Go Towards Route 1\" role=\"link\" tabindex=\"0\">Go Towards Route 1</a></u></b></center></p>",
 		'passages': {
 		},
 	},
 	'Go To Flower Garden': {
-		'text': "<p>You decided to go at the flower garden, while heading towards flower garden, you saw a <a class=\"squiffy-link link-passage\" data-passage=\"girl singing\" role=\"link\" tabindex=\"0\">girl singing</a> and an <a class=\"squiffy-link link-passage\" data-passage=\"old man\" role=\"link\" tabindex=\"0\">old man</a>.</p>",
+		'text': "<p><i>You decided to go at the flower garden, while heading towards flower garden, you saw a <a class=\"squiffy-link link-passage\" data-passage=\"girl singing\" role=\"link\" tabindex=\"0\">girl singing</a> and an <a class=\"squiffy-link link-passage\" data-passage=\"old man\" role=\"link\" tabindex=\"0\">old man</a>.</i></p>",
 		'passageCount': 5,
 		'passages': {
 			'girl singing': {
@@ -672,53 +672,69 @@ squiffy.story.sections = {
 				'text': "<p>He is heading towards route 1.</p>",
 			},
 			'@1': {
-				'text': "<p>You&#39;re nearly there.</p>",
+				'text': "<p><i><b>You&#39;re</b> nearly there.</i></p>",
 			},
 			'@2': {
-				'text': "<p>You arrived at the flower garden. where you saw <a class=\"squiffy-link link-passage\" data-passage=\"Mrs. Oak reading a book\" role=\"link\" tabindex=\"0\">Mrs. Oak reading a book</a>.</p>",
+				'text': "<p><i><b>You</b> arrived at the flower garden. where you saw <a class=\"squiffy-link link-passage\" data-passage=\"Mrs. Oak reading a book\" role=\"link\" tabindex=\"0\">Mrs. Oak reading a book</a>.</i></p>",
 			},
 			'Mrs. Oak reading a book': {
 				'text': "<p>She is reading a cooking recipes book.</p>",
 			},
 			'@3': {
-				'text': "<p>You walked ahead and saw <a class=\"squiffy-link link-passage\" data-passage=\"flowers\" role=\"link\" tabindex=\"0\">flowers</a>.</p>",
+				'text': "<p><i><b>You</b> walked ahead and saw <a class=\"squiffy-link link-passage\" data-passage=\"flowers\" role=\"link\" tabindex=\"0\">flowers</a>.</i></p>",
 			},
 			'flowers': {
-				'text': "<p>You saw beautifull red and white roses. &quot;They are so beautiful&quot; You throught.</p>",
+				'text': "<p><i><b>You</b> saw beautiful red and white roses.</i> &quot;They are so beautiful&quot; <i><b>You</b> thought.</i></p>",
 			},
 			'@4': {
-				'text': "<p>You walked further and saw small heart shaped <a class=\"squiffy-link link-passage\" data-passage=\"fountain\" role=\"link\" tabindex=\"0\">fountain</a>.</p>",
+				'text': "<p><i><b>You</b> walked further and saw small heart shaped <a class=\"squiffy-link link-passage\" data-passage=\"fountain\" role=\"link\" tabindex=\"0\">fountain</a>.</i></p>",
 			},
 			'fountain': {
-				'text': "<p>The fountain lights was off, but it was spouting cold water.</p>",
+				'text': "<p><i>The fountain lights was off, but it was spouting cold water.</i></p>",
 			},
 			'@last': {
-				'text': "<p>You&#39;ve explored the flower garden and came out of the flower garden. &quot;That was great&quot;, You looked at your watch and the time is 8:55am. &quot;It&#39;s about time, i should go to the pokemon lab now&quot; You trought while running towards pokemon lab.<br><br>You arrived in front of the lab<br><center><b><u><a class=\"squiffy-link link-section\" data-section=\"Go In The Lab\" role=\"link\" tabindex=\"0\">Go In The Lab</a></u></b></center></p>",
+				'text': "<p><i><b>You&#39;ve</b> explored the flower garden and came out of the flower garden.</i> &quot;That was great&quot;, You looked at your watch and the time is 8:50am. &quot;It&#39;s about time, i should go to the pokemon lab now&quot; <i><b>You</b> trought while running towards pokemon lab.</b><br><br><i><b>You</b> arrived in front of <a class=\"squiffy-link link-section\" data-section=\"pokemon lab\" role=\"link\" tabindex=\"0\">pokemon lab</a>.</i></p>",
 			},
 		},
 	},
 	'Go Towards Route 1': {
-		'text': "<p>You decided to head towards route 1, while heading towards route 1 you saw <a class=\"squiffy-link link-passage\" data-passage=\"few pidgey's\" role=\"link\" tabindex=\"0\">few pidgey&#39;s</a>.</p>",
+		'text': "<p><i><b>You</b> decided to head towards route 1, while heading towards route 1 you saw <a class=\"squiffy-link link-passage\" data-passage=\"few pidgey's\" role=\"link\" tabindex=\"0\">few pidgey&#39;s</a>.</i></p>",
+		'passageCount': 5,
 		'passages': {
 			'few pidgey\'s': {
 				'text': "<p>Few pidgey&#39;s flying towards route 1.</p>",
 			},
 			'@1': {
-				'text': "<p>You heard someone shouting your name from behind. <a class=\"squiffy-link link-passage\" data-passage=\"turn back\" role=\"link\" tabindex=\"0\">turn back</a></p>",
+				'text': "<p><i><b>You</b> heard someone shouting your name from behind. <a class=\"squiffy-link link-passage\" data-passage=\"turn back\" role=\"link\" tabindex=\"0\">turn back</a>.</i></p>",
 			},
 			'turn back': {
-				'text': "<p>You turned back and saw your mom shouting your name and you ran towards her. &quot;Mom!, what are you doing here?&quot;, You said exhausted.<br><br>\n&quot;Here, I forgot to give you this&quot;, Mom gived you an gift box.<br><br></p>\n<p><center><b>You recevied an gift from mom.</b></center><br>\n&quot;Why don&#39;t you open it, my dear?&quot;, Mom said.<br><br>\nYou opened the gift and you <a class=\"squiffy-link link-passage\" data-passage=\"saw\" role=\"link\" tabindex=\"0\">saw</a>.</p>",
+				'text': "<p><i><b>You</b> turned back and saw your mom shouting your name and ran towards her.</i> &quot;Mom!, what are you doing here?&quot; <i><b>You</b> said exhausted.</i><br><br>\n&quot;Here, I forgot to give you this&quot; <i><b>Mom</b> gived you an <a class=\"squiffy-link link-passage\" data-passage=\"gift box\" role=\"link\" tabindex=\"0\">gift box</a>.</i></p>",
 			},
-			'saw': {
-				'text': "<p>You saw brand new shoes and new blue hat. &quot;Woah, thank you mom, you&#39;re the best&quot; You replied with smile.<br><br>\n&quot;I&#39;m glad, you liked them&quot;, Mom replied with smile. &quot;You should go to the pokemon lab, it&#39;s almost 9am.&quot;<br><br>\n&quot;Oh yeah, I&#39;ll go now, thanks mom.&quot; You replied, while wearing the blue hat.<br><br>\n<br><br>&quot;Take care, my dear&quot;, Mom replied with smile as she turned back and walked towards your house.\n<br><br>&quot;Bye mom&quot;, You opened your backpack and stored your brand new shoes in it, then you head towards the <a class=\"squiffy-link link-passage\" data-passage=\"pokemon lab\" role=\"link\" tabindex=\"0\">pokemon lab</a></p>",
+			'gift box': {
+				'text': "<p>&quot;Why don&#39;t you <a class=\"squiffy-link link-passage\" data-passage=\"open\" role=\"link\" tabindex=\"0\">open</a> it, my dear&quot; <i><b>Mom</b> replied with smile.</i></p>",
+				'js': function() {
+					alert ("You recevied an gift box from mom.");
+				},
 			},
-			'pokemon lab': {
-				'text': "<p>You arrived in front of the pokemon lab.</p>\n<p><center><b><u><a class=\"squiffy-link link-section\" data-section=\"Go In The Lab\" role=\"link\" tabindex=\"0\">Go In The Lab</a></u></b></b></p>",
+			'open': {
+				'text': "<p>&quot;Woah, thank you mom, you&#39;re the best&quot; <i><b>You</b> replied with excitment.</i><br><br>\n&quot;I&#39;m glad, you liked them&quot; <i><b>Mom</b> replied with smile.</i> &quot;You should go to the pokemon lab, it&#39;s almost 9am.&quot;<br><br>\n&quot;Oh yeah, I&#39;ll go now, thanks mom&quot; <i><b>You</b> replied, while wearing the blue hat.</i><br><br>\n&quot;Take care, my dear&quot; <i><b>Mom</b> repliedn as she turned back and walked towards your house.</i>\n<br><br>&quot;Bye mom&quot; <i><b>You</b>shouted.</i><br><br>\n<i>As you were heading towards the lab, you decided to store new shoes in your <a class=\"squiffy-link link-passage\" data-passage=\"bag\" role=\"link\" tabindex=\"0\">bag</a> and wear the dark blue hat.</p>",
+				'js': function() {
+					alert ("You Opened the gift and found pair of brand new shoes and a dark blue hat.");
+				},
+			},
+			'bag': {
+				'text': "",
+				'js': function() {
+					alert ("You stored new shoes in the bag");
+				},
+			},
+			'@last': {
+				'text': "<p><i><b>You</b> arrived in front of <a class=\"squiffy-link link-section\" data-section=\"pokemon lab\" role=\"link\" tabindex=\"0\">pokemon lab</a>.</i></p>",
 			},
 		},
 	},
-	'Go In The Lab': {
-		'text': "",
+	'pokemon lab': {
+		'text': "<p><b>8:58am, 1st April 2005</b><br><br>\n&quot;Looks like you finally showed up!&quot;<br><br>\nYou let out an exasperated sigh as you walked up the steps to the lab entrance. &quot;I&#39;m still just as early as you Dean!&quot; You replied loudly.<br><br></p>",
 		'passages': {
 			'passage link': {
 				'text': "<p>This is the text for the first passage link.</p>",
