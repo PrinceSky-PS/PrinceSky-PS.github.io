@@ -5,7 +5,7 @@
 <br><br>
 <b><font size="6">Project Leader</font></b>
 <hr>
-<b><font size="4">Prince Sky ( Akash kumar )</b>- Development, Additional Content, Additional Story.</font>
+<b>Prince Sky ( Akash Kumar )
 <br>
 <br>
 <br>
