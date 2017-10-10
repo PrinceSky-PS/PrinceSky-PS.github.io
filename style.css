@@ -28,15 +28,14 @@ a.squiffy-header-link
 div#background
 {
     max-width: 100%;
-    background: rgba(0,0,0, 0.6);
+    background: rgba(0,0,0, 0.6) !important;
     color: white;
 }
 
 div#squiffy-container
 {
+    max-width: 100%;
     background: rgba(0, 0, 0, 0.6) !important;
-    height: 90%;
-    width: 90%;
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -51,7 +50,7 @@ div#squiffy-header
 div#squiffy
 {
     font-size: 18px;
-    background: black;
+    background: rgba(0, 0,0, 0.6);
 }
 hr {
     border: 0;
