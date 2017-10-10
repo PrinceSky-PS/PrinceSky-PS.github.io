@@ -10,7 +10,6 @@ a.squiffy-link
 {
     text-decoration: underline;
     color: dodgerblue;
-    background: black;
     cursor: pointer;
 }
 a.squiffy-link.disabled
@@ -23,22 +22,21 @@ a.squiffy-header-link
 {
     text-decoration: underline;
     color: green;
-    background: black;
     cursor: pointer;
 }
 
 div#background
 {
     max-width: 100%;
-    background: black;
+    background: rgba(0,0,0, 0.6);
     color: white;
 }
 
 div#squiffy-container
 {
-    background: rgba(0, 0, 0, 0.5) !important;
-    height: 90% !important;
-    width: 90% !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+    height: 90%;
+    width: 90%;
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -46,8 +44,8 @@ div#squiffy-container
 }
 div#squiffy-header
 {
-    font-size: 14px;
-    background: black;
+    font-size: 16px;
+    background: rgba(0,0,0,0.6);
     text-align: right;
 }
 div#squiffy
