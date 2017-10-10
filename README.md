@@ -1,11 +1,11 @@
+<b><font size="6">Updates</font></b>
+<hr>
+<br>
+<b>10.10.17:</b> Changed section/passage link color.
+
 <b><font size="6">Project Leader</font></b>
 <hr>
-<b><font size="4">Prince Sky ( Musaddiq Temkar )</b>- Development, Additional Content, Additional Story.</font>
+<b><font size="4">Prince Sky ( Akash kumar )</b>- Development, Additional Content, Additional Story.</font>
 <br>
 <br>
 <br>
-<b><font size="6">Contributors</font></b>
-<hr>
-<b><font size="4">Talarc</b> - Original Story.</font>
-<br>
-<b><font size="4">Github</b> - Host.</font>
