@@ -626,7 +626,7 @@ var set = squiffy.set;
 
 
 squiffy.story.start = '_default';
-squiffy.story.id = '05f82b648e';
+squiffy.story.id = 'e7d9eee6fe';
 squiffy.story.sections = {
 	'_default': {
 		'text': "<p><center><font size=\"6\"><font color=\"green\"><b><u>Pokèmon Adventures</u></b></font></center><br><br>\n<i>Welcome this is the world inhabited not only by humans, but also by the mysterious and wonderful creatures know as Pokèmon. Roaming the land, swimming in the ocean, soaring through the skies, in towns and even in people&#39;s homes, pokèmon can be found everywhere. In most cases people and pokèmon lives together in harmony, helping each other and keeping each other company. Many people travel the world, befriending and capturing the wild pokèmons and battle with them with others, like them in friendly compititons. Those are the pokèmon trainers, be it in groups or alone with their pokèmon, most trainers travel across many regions in the pokèmon world, seeking to improve their skills by challenging pokemon gyms in the towns and the cities they visit, in the aim to participte in the prestigioes Pokèmon Leagues, that each regions hosts.</i>\n<br><br></p>\n<p><center><b><a class=\"squiffy-link link-section\" data-section=\"Play\" role=\"link\" tabindex=\"0\">Play</a></b></center>\n<br></p>",
@@ -674,7 +674,7 @@ squiffy.story.sections = {
 		},
 	},
 	'Roam Around': {
-		'text': "<p><i>You decided to go at the <a class=\"squiffy-link link-passage\" data-passage=\"flower garden\" role=\"link\" tabindex=\"0\">flower garden</a>.</i><br></p>",
+		'text': "<p><i>While roaming around, you decided to go at the <a class=\"squiffy-link link-passage\" data-passage=\"flower garden\" role=\"link\" tabindex=\"0\">flower garden</a>.</i><br></p>",
 		'passageCount': 7,
 		'passages': {
 			'flower garden': {
@@ -690,7 +690,7 @@ squiffy.story.sections = {
 				'text': "<p>&quot;Maybe, <font color=\"DodgerBlue\">squirtle</font>, who is a water type pokemon which can also give me advantage against <b>brock</b>, Or should i choose <font color=\"Tomato\">charmander</font>, who is a fire type pokemon which evolves into powerful <font color=\"Tomato\">charizard</font>.&quot; <i>You thought, as you walked <a class=\"squiffy-link link-passage\" data-passage=\"inside\" role=\"link\" tabindex=\"0\">inside</a> the flower garden.</i><br></p>",
 			},
 			'inside': {
-				'text': "<p><i>While exploring the flower garden, you saw an <a class=\"squiffy-link link-passage\" data-passage=\"Woman sitting on a bench\" role=\"link\" tabindex=\"0\">Woman sitting on a bench</a>, <a class=\"squiffy-link link-passage\" data-passage=\"girl singing\" role=\"link\" tabindex=\"0\">girl singing</a> and <a class=\"squiffy-link link-section\" data-section=\"water fountain\" role=\"link\" tabindex=\"0\">water fountain</a> in middle section of flower garden.</i><br></p>",
+				'text': "<p><i>While exploring the flower garden, you saw an <a class=\"squiffy-link link-passage\" data-passage=\"Woman sitting on a bench\" role=\"link\" tabindex=\"0\">Woman sitting on a bench</a>, <a class=\"squiffy-link link-passage\" data-passage=\"girl singing\" role=\"link\" tabindex=\"0\">girl singing</a> and <a class=\"squiffy-link link-passage\" data-passage=\"water fountain\" role=\"link\" tabindex=\"0\">water fountain</a> in middle section of flower garden.</i><br></p>",
 			},
 			'Woman sitting on a bench': {
 				'text': "<p>She is reading a book.<br></p>",
