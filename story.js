@@ -626,7 +626,7 @@ var set = squiffy.set;
 
 
 squiffy.story.start = '_default';
-squiffy.story.id = '0e0a04a5ae';
+squiffy.story.id = '05f82b648e';
 squiffy.story.sections = {
 	'_default': {
 		'text': "<p><center><font size=\"6\"><font color=\"green\"><b><u>Pokèmon Adventures</u></b></font></center><br><br>\n<i>Welcome this is the world inhabited not only by humans, but also by the mysterious and wonderful creatures know as Pokèmon. Roaming the land, swimming in the ocean, soaring through the skies, in towns and even in people&#39;s homes, pokèmon can be found everywhere. In most cases people and pokèmon lives together in harmony, helping each other and keeping each other company. Many people travel the world, befriending and capturing the wild pokèmons and battle with them with others, like them in friendly compititons. Those are the pokèmon trainers, be it in groups or alone with their pokèmon, most trainers travel across many regions in the pokèmon world, seeking to improve their skills by challenging pokemon gyms in the towns and the cities they visit, in the aim to participte in the prestigioes Pokèmon Leagues, that each regions hosts.</i>\n<br><br></p>\n<p><center><b><a class=\"squiffy-link link-section\" data-section=\"Play\" role=\"link\" tabindex=\"0\">Play</a></b></center>\n<br></p>",
@@ -712,7 +712,7 @@ squiffy.story.sections = {
 		},
 	},
 	'Charmander': {
-		'text': "<p><i>You walked over and patted <font color=\"Tomato\">charmander</font> on his head.</i> &quot;I&#39;ll choose you <font color=\"Tomato\">charmander</font>.&quot;<br><br>\n&quot;Another excellent choice,&#39; <i>Oak remarked with a smile.</i> &quot;Though make sure that you take care when handling him.&quot; <i>he handed you the charmander&#39;s bulbasaur.</i><br><br>\n&quot;Great!&quot; <i>You grinned.</i>\n<br><br>\n&quot;Before I forget,&quot; <i>he said</i> &quot;here are your <a class=\"squiffy-link link-passage\" data-passage=\"trainer\" role=\"link\" tabindex=\"0\">trainer</a> cards.&quot; <i></p>",
+		'text': "<p><i>You walked over and patted <font color=\"Tomato\">charmander</font> on his head.</i> &quot;I&#39;ll choose you <font color=\"Tomato\">charmander</font>.&quot;<br><br>\n&quot;Another excellent choice,&#39; <i>Oak remarked with a smile.</i> &quot;Though make sure that you take care when handling him.&quot; <i>he handed you the charmander&#39;s bulbasaur.</i><br><br>\n&quot;Great!&quot; <i>You grinned.</i>\n<br><br>\n &quot;Great.&quot; You grinned. &quot;I think I&#39;ll nickname you &#39;Kaze&#39;. How does that sound?&quot;\n<br><br>\n&quot;Chaaar!&quot; Kaze gave an eager nod in response.\n<br><br>\n&quot;Before I forget,&quot; <i>he said</i> &quot;here are your <a class=\"squiffy-link link-passage\" data-passage=\"trainer\" role=\"link\" tabindex=\"0\">trainer</a> cards.&quot; <i></p>",
 		'passages': {
 			'trainer': {
 				'text': "<center><i>You received trainer card from professor oak.</i></center><br><br>\n&quot;Thanks professor&quot; <i>You replied</i>.<br><br>\n&quot;Take good care of it - you&#39;ll need that to enter any official competitions and get free treatment for your pokemons at pokemon centre.&quot;\n<br><br>\n&quot;Alright,&quot; <i>Dean grinned as he recalled Squirtle to his pokeball.</i> &quot;James do you want to battle?&quot;<br><br>\n<center><b><a class=\"squiffy-link link-section\" data-section=\"Sure\" role=\"link\" tabindex=\"0\">Sure</a> || <a class=\"squiffy-link link-section\" data-section=\"No\" role=\"link\" tabindex=\"0\">No</a></b></center>",
@@ -720,7 +720,7 @@ squiffy.story.sections = {
 		},
 	},
 	'Bulbasaur': {
-		'text': "<p><i>You walked over and patted <font color=\"green\">bulbasaur</font> on her head.</i> &quot;I&#39;ll choose you <font color=\"green\">bulbasaur</font>.&quot;<br>\n<br>\n &quot;Another excellent choice,&quot; <i>Oak remarked with a smile.</i> &quot;Though make sure that you take care when handling him,&quot; </i>he handed you the bulbasaur&#39;s pokéball.</i>\n<br><b>\n&quot;Great.&quot; <i>You grinned.</i>\n<br><br>\n&quot;Before I forget,&quot; <i>he said,</i> &quot;here are your <a class=\"squiffy-link link-passage\" data-passage=\"trainer\" role=\"link\" tabindex=\"0\">trainer</a> cards.&quot;</p>",
+		'text': "<p><i>You walked over and patted <font color=\"green\">bulbasaur</font> on her head.</i> &quot;I&#39;ll choose you <font color=\"green\">bulbasaur</font>.&quot;<br>\n<br>\n&quot;Another excellent choice,&quot; <i>Oak remarked with a smile.</i> &quot;Though make sure that you take care when handling him,&quot; </i>he handed you the bulbasaur&#39;s pokéball.</i>\n<br><br>\n&quot;Great.&quot; James grinned. &quot;I think I&#39;ll nickname you &#39;Kaze&#39;. How does that sound?&quot;\n<br><br>\n&quot;bulba!&quot; Kaze gave an eager nod in response.</p>\n<p><br><br>\n&quot;Before I forget,&quot; <i>he said,</i> &quot;here are your <a class=\"squiffy-link link-passage\" data-passage=\"trainer\" role=\"link\" tabindex=\"0\">trainer</a> cards.&quot;</p>",
 		'passages': {
 			'trainer': {
 				'text': "<center><i>You received trainer card from professor oak.</i><br><br>\n&quot;Thanks professor&quot; <i>You replied</i><br><br>\n&quot;Take good care of it - you&#39;ll need that to enter any official competitions and get free treatment for your pokémon at pokémon centres.&quot;\n<br><br>\n&quot;Alright!&quot; <i>Dean grinned as he recalled Squirtle to his pokéball.</i> &quot;James, do you want to battle?&quot;<br><br>\n<center><b><a class=\"squiffy-link link-section\" data-section=\"Sure\" role=\"link\" tabindex=\"0\">Sure</a> || <a class=\"squiffy-link link-passage\" data-passage=\"[No\" role=\"link\" tabindex=\"0\">[No</a>.</b></center>",
@@ -728,17 +728,17 @@ squiffy.story.sections = {
 		},
 	},
 	'Sure': {
-		'text': "<p>&quot;Sure!&quot; <i>You grinned determinedly back.</i> &quot;I&#39;ll prove to you that I can still beat you as a casual trainer!&quot;\n<br><br>\n&quot;We&#39;ll see about that!&quot;<i> Dean laughed.</i>\n<br><br>\n&quot;I&#39;ll act as your referee,&quot; <i>Oak said.</i> &quot;Come this way.&quot;\n<br><br>\n<i>You quickly recalled your pokemon and three of you walked out to the <a class=\"squiffy-link link-section\" data-section=\"back of the lab\" role=\"link\" tabindex=\"0\">back of the lab</a>.</i></p>",
+		'text': "<p>&quot;Sure!&quot; <i>You grinned determinedly back.</i> &quot;I&#39;ll prove to you that I can still beat you as a casual trainer!&quot;\n<br><br>\n&quot;We&#39;ll see about that!&quot;<i> Dean laughed.</i>\n<br><br>\n&quot;I&#39;ll act as your referee,&quot; <i>Oak said.</i> &quot;Come this way.&quot;\n<br><br>\n<i>You quickly recalled your Kaze and three of you walked out to the <a class=\"squiffy-link link-section\" data-section=\"back of the lab\" role=\"link\" tabindex=\"0\">back of the lab</a>.</i></p>",
 		'passages': {
 		},
 	},
 	'No': {
-		'text': "<p>&quot;No thanks&quot; <i>You replied calmly.</i>\n<br><br>\n&quot;I knew it, you&#39;re afraid of me.&quot; <i>Dean replied, giving you a look.</i>\n<br><br>\n&quot;I&#39;m not afraid of you, let&#39;s do it&quot; <i>You replied annoyed.</i>\n<br><br>\n&quot;Calm down kids, I&#39;ll act as your referee,&quot; <i>Oak said.</i> &quot;Come this way.&quot;\n<br><br>\n<i>You quickly recalled your pokemom and three of you walked out to fhe <a class=\"squiffy-link link-section\" data-section=\"back of the lab\" role=\"link\" tabindex=\"0\">back of the lab</a>.</i></p>",
+		'text': "<p>&quot;No thanks&quot; <i>You replied calmly.</i>\n<br><br>\n&quot;I knew it, you&#39;re afraid of me.&quot; <i>Dean replied, giving you a look.</i>\n<br><br>\n&quot;I&#39;m not afraid of you, let&#39;s do it&quot; <i>You replied annoyed.</i>\n<br><br>\n&quot;Calm down kids, I&#39;ll act as your referee,&quot; <i>Oak said.</i> &quot;Come this way.&quot;\n<br><br>\n<i>You quickly recalled your Kaze and three of you walked out to fhe <a class=\"squiffy-link link-section\" data-section=\"back of the lab\" role=\"link\" tabindex=\"0\">back of the lab</a>.</i></p>",
 		'passages': {
 		},
 	},
 	'back of the lab': {
-		'text': "<p><b>DID YOU LIKED THE STORY SO FAR?</b></p>",
+		'text': "<p><b>End<br><br>\nThanks for beta testing my story</b></p>",
 		'passages': {
 		},
 	},
