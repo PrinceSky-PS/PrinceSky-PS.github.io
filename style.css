@@ -94,17 +94,13 @@ a.squiffy-header-link
 }
 custom-header
 { 
-	display: block;
+	display: inline-block;
 	background: #016453; 
 	max-width: 100%; 
-	height: auto; color: white; 
+	height: 200px;
+	color: white; 
 	text-decoration: bold;
 }
-custom-header li
-{
-	display: inline-block;
-        text-align:center; 
-}	
 
 div#background
 {
