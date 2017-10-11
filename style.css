@@ -36,6 +36,7 @@ a.squiffy-link.disabled
 a.squiffy-header-link
 {
     text-decoration: bold;
+    text-align: right;
     cursor: pointer;
 }
 
