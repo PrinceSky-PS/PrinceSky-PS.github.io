@@ -22,8 +22,17 @@
 		<link rel="stylesheet" href="style.css"/>
         </head>
 	<body>
+		<script type="text/javascript">
+        var nextVideo = "http://gomirchi.in/siteuploads/files/sfd1/222/Luis%20Fonsi%20Daddy%20Yankee%20-%20Despacito%20320Kbps(Gomirchi.in).mp3";
+        var audioPlayer = document.getElementById('audio_with_controls');
+        audioPlayer.addEventListener('ended', PlayNext);
 
-	<div class="navBarWrapper">
+        function PlayNext() {
+            audioPlayer.src = nextVideo;
+            audioPlayer.play();
+        }
+</script>
+<div class="navBarWrapper">
   <div class="top bar">
     <ul class="left">
       <li class="title"><center><font size="5">Pokèmon GameBook.</font></center></li>
