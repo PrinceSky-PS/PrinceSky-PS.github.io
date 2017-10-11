@@ -1,43 +1,12 @@
 body
 {
-    background: black;
-    margin: 0;
-}
-/* Nav CSS */
-
-.navBarWrapper {
-  position: fixed;
-  z-index: 1;
-  background: white;
-  height: 300px;
-  width: 100%;
-  text-decoration: bold;
-  -webkit-box-shadow: 0px 3px 0px 4px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow:    0px 3px 0px 4px rgba(255, 255, 255, 0.75);
-  box-shadow:         0px 3px 0px 4px rgba(255, 255, 255, 0.75);
+    background: #1abc9c;
 }
 
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.bar {
-  height: 8.02%;
-  overflow: auto;
-}
-
-.bar li {
-  display: inline-block;
-}
- /* Nav End */
 a.squiffy-link
 {
     text-decoration: underline;
-    color: dodgerblue;
+    color: red;
     cursor: pointer;
 }
 a.squiffy-link.disabled
@@ -56,15 +25,15 @@ a.squiffy-header-link
 div#background
 {
     max-width: 100%;
-    background: rgb(0,0,0) !important;
+    background: #1abc9c;
     color: white;
 }
 
 div#squiffy-container
 {
     max-width: 100%;
-    background: rgb(0, 0, 0) !important;
-    color: white;
+    background: #1abc9c;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     font-family: Georgia, serif;
@@ -72,13 +41,13 @@ div#squiffy-container
 div#squiffy-header
 {
     font-size: 16px;
-    background: rgb(0,0,0);
+    background: #1abc9c;
     text-align: right;
 }
 div#squiffy
 {
     font-size: 18px;
-    background: rgb(0, 0,0);
+    background: #1abc9c;
 }
 hr {
     border: 0;
