@@ -84,9 +84,9 @@ hr {
     margin-top: 16px; margin-bottom: 16px;
 }
 
-footer {
+.footer {
     display: block;
-    max-height: 300px;
+    max-height: 200px;
     max-width: 100%
     background: dodgerblue;
     color: black;
