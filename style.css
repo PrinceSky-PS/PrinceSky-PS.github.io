@@ -33,6 +33,12 @@ a.squiffy-link.disabled
     color: white !important;
     cursor: inherit;
 }
+a.gamebook-title
+{
+    text-aligen: left;
+    text-decoration: bold;
+    cursor: pointer;
+    }
 a.squiffy-header-link
 {
     text-decoration: bold;
