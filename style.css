@@ -1,6 +1,7 @@
 body
 {
     background: #1abc9c;
+    margin: 0;
 }
 /* Nav Bar */
 .navBarWrapper {
@@ -51,13 +52,16 @@ div#background
 {
     max-width: 100%;
     background: #1abc9c;
-    color: white;
+    margin: 0;
+    color: black;
 }
 
 div#squiffy-container
 {
     max-width: 100%;
     background: #1abc9c;
+    padding: 20px;
+    margin-top: 30px;
     color: black;
     margin-left: auto;
     margin-right: auto;
