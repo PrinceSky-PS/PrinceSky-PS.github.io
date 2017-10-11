@@ -18,7 +18,7 @@ body
 }
 
 .bar {
-  height: 15%;
+  max-width: 100%;
   overflow: auto;
   background: black;
 }
