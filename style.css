@@ -2,6 +2,32 @@ body
 {
     background: #1abc9c;
 }
+/* Nav Bar */
+.navBarWrapper {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.bar {
+  height: 15%;
+  overflow: auto;
+  background: black;
+}
+
+.bar li {
+  display: inline-block;
+}
+
+/* Nav End */
 
 a.squiffy-link
 {
