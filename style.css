@@ -43,8 +43,7 @@ a.squiffy-link.disabled
 }
 a.squiffy-header-link
 {
-    text-decoration: underline;
-    color: green;
+    text-decoration: bold;
     cursor: pointer;
 }
 
