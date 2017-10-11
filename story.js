@@ -1,3 +1,5 @@
+// Created with Squiffy 5.1.0
+// https://github.com/textadventures/squiffy
 
 (function(){
 /* jshint quotmark: single */
@@ -624,7 +626,7 @@ var set = squiffy.set;
 
 
 squiffy.story.start = '_default';
-squiffy.story.id = '281a0ae1e3';
+squiffy.story.id = '5d717f6853';
 squiffy.story.sections = {
 	'_default': {
 		'text': "<p><br></p>\n<p><center><i>Welcome this is the world inhabited not only by humans, but also by the mysterious and wonderful creatures know as Pokèmon. Roaming the land, swimming in the ocean, soaring through the skies, in towns and even in people&#39;s homes, pokèmon can be found everywhere. In most cases people and pokèmon lives together in harmony, helping each other and keeping each other company. Many people travel the world, befriending and capturing the wild pokèmons and battle with them with others, like them in friendly compititons. Those are the pokèmon trainers, be it in groups or alone with their pokèmon, most trainers travel across many regions in the pokèmon world, seeking to improve their skills by challenging pokemon gyms in the towns and the cities they visit, in the aim to participte in the prestigioes Pokèmon Leagues, that each regions hosts.</i></center>\n<br><br></p>\n<p><center><b><a class=\"squiffy-link link-section\" data-section=\"You're James Barton And This is your story!\" role=\"link\" tabindex=\"0\">You&#39;re James Barton And This is your story!</a></b></center>\n<br></p>",
@@ -632,11 +634,11 @@ squiffy.story.sections = {
 		},
 	},
 	'You\'re James Barton And This is your story!': {
-		'text': "<p><b>Pallet Town, Kanto.<br>\n7:30am, 1st April 2017.</b>\n<br><br>\n<i>The magnificent beat down upon the town of pallet in the south of kanto. Only the few wispy clouds could be seen as the early bird&#39;s among the town&#39;s population started appearing out of their houses. A large flock of tiny bird pokèmon, pidgey, soared overhead in the direction of imposing Mt. Hideway to the west. The town itself was mostly of deep green colour, thanks to abundance of trees and flower gardens. There was a slight chill in the air. However a reminder that it was not yer summer. The peace and quiet of the town was interrupted briefly as a ferry leaving, Pallet&#39;s small port in the south, sounded it&#39;s whistle loudly as it sets at the sea.\n<br><br>\nIn the north western suburbs of town, inside a rectangular pale yellow coloured house, a twovelve year old boy was busily getting ready. He scratched, short brown hair, cut the previous day, as he stared at the clothes, He&#39;d laid down on his bed, he frowned as he attempted to decide, what he should wear, His blue eyes showed his irritation at being unable to make dicision.</i>\n<br><br>\n&quot;James!&quot; <i>You heard your mother calling.</i>\n<br><br>\n&quot;Are you ready for breakfast yet?&quot;\n<br><br>\n&quot;You&#39;re still not dressed yet?&quot; <i>Your younger brother, <b>Tom</b> asked as he poked his head round the door.</i>\n<br><br>\n&quot;No&quot; <i>You replied, shaking your head.</i>\n<br><br>\n&quot;Why don&#39;t you just wear your favorite clothes?&quot; <i>Tom asked.</i>\n<br><br>\n&quot;They&#39;re not really smart enough&quot; <i>You replied with a sigh.</i>\n<br><br>\n&quot;Then how about a shirt and tie?&quot;\n<br><br>\n&quot;That&#39;s a little smart.&quot;\n<br><br>\n&quot;I didn&#39;t think that pokèmon trainers needed to dress smartly&quot; <i><b>Will</b> your middle brother, appeared in the doorway and joined the conversation.</i> &quot;Why don&#39;t you wear the clothes that grandma got you for your birthday?&quot;\n<br><br>\n<i>You thought for a second.</i>\n<br><br></p>\n<p><center><b><a class=\"squiffy-link link-section\" data-section=\"Wear Grandma's Gifted Clothes\" role=\"link\" tabindex=\"0\">Wear Grandma&#39;s Gifted Clothes</a>.\n<br><a class=\"squiffy-link link-section\" data-section=\"Wear Something Else\" role=\"link\" tabindex=\"0\">Wear Something Else</a>.</b></center><br></p>",
+		'text': "<p><b>Pallet Town, Kanto.<br>\n7:30am, 1st April 2017.</b>\n<br><br>\n<i>The magnificent beat down upon the town of pallet in the south of kanto. Only the few wispy clouds could be seen as the early bird&#39;s among the town&#39;s population started appearing out of their houses. A large flock of tiny bird pokèmon, pidgey, soared overhead in the direction of imposing Mt. Hideway to the west. The town itself was mostly of deep green colour, thanks to abundance of trees and flower gardens. There was a slight chill in the air. However a reminder that it was not yer summer. The peace and quiet of the town was interrupted briefly as a ferry leaving, Pallet&#39;s small port in the south, sounded it&#39;s whistle loudly as it sets at the sea.\n<br><br>\nIn the north western suburbs of town, inside a rectangular pale yellow coloured house, a twovelve year old boy was busily getting ready. He scratched, short brown hair, cut the previous day, as he stared at the clothes, He&#39;d laid down on his bed, he frowned as he attempted to decide, what he should wear, His blue eyes showed his irritation at being unable to make dicision.</i>\n<br><br>\n&quot;James!&quot; <i>You heard your mother calling.</i>\n<br><br>\n&quot;Are you ready for breakfast yet?&quot;\n<br><br>\n&quot;You&#39;re still not dressed yet?&quot; <i>Your younger brother, <b>Tom</b> asked as he poked his head round the door.</i>\n<br><br>\n&quot;No&quot; <i>You replied, shaking your head.</i>\n<br><br>\n&quot;Why don&#39;t you just wear your favorite clothes?&quot; <i>Tom asked.</i>\n<br><br>\n&quot;They&#39;re not really smart enough&quot; <i>You replied with a sigh.</i>\n<br><br>\n&quot;Then how about a shirt and tie?&quot;\n<br><br>\n&quot;That&#39;s a little smart.&quot;\n<br><br>\n&quot;I didn&#39;t think that pokèmon trainers needed to dress smartly&quot; <i><b>Will</b> your middle brother, appeared in the doorway and joined the conversation.</i> &quot;Why don&#39;t you wear the clothes that grandma got you for your birthday?&quot;\n<br><br>\n<i>You thought for a second.</i>\n<br><br></p>\n<p><center><b><a class=\"squiffy-link link-section\" data-section=\"Open Gift Box\" role=\"link\" tabindex=\"0\">Open Gift Box</a> || <a class=\"squiffy-link link-section\" data-section=\"Wear Something Else\" role=\"link\" tabindex=\"0\">Wear Something Else</a></b></center><br></p>",
 		'passages': {
 		},
 	},
-	'Wear Grandma\'s Gifted Clothes': {
+	'Open Gift Box': {
 		'text': "<p>&quot;Alright&quot; <i>You nodded as you opened <a class=\"squiffy-link link-passage\" data-passage=\"grandma's gifted box\" role=\"link\" tabindex=\"0\">grandma&#39;s gifted box</a>.</i></p>",
 		'passages': {
 			'grandma\'s gifted box': {
@@ -652,7 +654,7 @@ squiffy.story.sections = {
 		'passageCount': 2,
 		'passages': {
 			'tv': {
-				'text': "<center><font color=\"brown\"><i><b>Reporter:</b> Welcome back to the gym tv.</i></font></center>",
+				'text': "<center><i><b>Reporter:</b> Welcome back to the gym tv.</i></center>",
 			},
 			'@1': {
 				'text': "<p><i>You started to change your <a class=\"squiffy-link link-passage\" data-passage=\"clothes\" role=\"link\" tabindex=\"0\">clothes</a>.</i>\n<br></p>",
@@ -758,7 +760,7 @@ squiffy.story.sections = {
 			},
 		},
 	},
-	'Click Me!': { 
+	'Click Me!': {
 		'clear': true,
 		'text': "<center><b>Your Team:\n<br><br>\nActive:\n<br><br>\nCharmander:</b> <i>male, naïve, often scatters things, likes sweet food, fire type, Blaze ability, known moves are Scratch, Growl and Ember.</i>\n<br><br>\n<b>Dean&#39;s Team:\n<br><br>\nActive:\n<br><br>\nSquirtle:</b><i> male, rash, often goes inside it&#39;s shell, likes to eat, water type, Torrent ability, known moves are Tackle and Tail Whip.</i></center><br><br>\n<i>Why don&#39;t you go back <a class=\"squiffy-link link-section\" data-section=\"home\" role=\"link\" tabindex=\"0\">home</a>?, even if the story ends here.</i>\n<br><br>\n<center><b>Thanks for reading and for giving your precious reviews.</b></center>",
 		'passages': {
