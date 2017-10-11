@@ -83,6 +83,17 @@ div#section-button {
 		0px -1px 0px rgba(000,000,000,0.4),
 		0px 1px 0px rgba(255,255,255,0.3);
 }
+div#section-button.disabled { 
+	text-decoration: none; 
+	color: black; 
+	cursor: inherit; 
+	background: none; 
+	padding: none; 
+	box-shadow: none; 
+	text-shadow: none; 
+	border: none; 
+	border-radius: none;
+}
 
 a.squiffy-link.disabled
 {
