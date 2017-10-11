@@ -61,7 +61,7 @@ a.squiffy-header-link
     text-align: right;
     cursor: pointer;
 }
-div#custom-header
+custom-header
 { 
 	display: block;
 	background: #016453; 
@@ -69,6 +69,11 @@ div#custom-header
 	height: auto; color: white; 
 	text-decoration: bold;
 }
+custom-header li
+{
+	display: inline-block;
+        text-align:center; 
+	
 
 div#background
 {
