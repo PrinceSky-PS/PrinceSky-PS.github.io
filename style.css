@@ -11,6 +11,38 @@ a.squiffy-link
     color: brown;
     cursor: pointer;
 }*/
+
+/* Top Header CSS */
+.navBarWrapper {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.bar {
+  background: #000;
+  height: auto;
+  overflow: auto;
+  color: white;
+  text-decoration: bold;
+-webkit-box-shadow: 0 10px 6px -6px #777;
+-moz-box-shadow: 0 10px 6px -6px #777;
+ box-shadow: 0 10px 6px -6px #777;
+}
+
+.bar li {
+  display: inline-block;
+}
+/* Top Header CSS ENDS*/ 
+
 a.squiffy-link {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
