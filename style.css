@@ -85,9 +85,10 @@ hr {
 }
 
 .footer {
-    display: block;
-    max-height: 200px;
     max-width: 100%
     background: dodgerblue;
     color: black;
+    }
+.footer il {
+    display: in-line block;
     }
