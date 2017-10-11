@@ -4,6 +4,19 @@ body
     margin: 0;
 }
 
+.css-input {
+	font-size: 14px; 
+	border-width: 1px; 
+	border-color: #CCCCCC; 
+	color: black;
+	border-style: groove;
+	border-radius: 2px; 
+	box-shadow: none; 
+	text-shadow: none;
+} 
+.css-input:focus {
+	outline: none; 
+}
 
 a.squiffy-link
 {
