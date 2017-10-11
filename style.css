@@ -6,14 +6,7 @@ body
 /* Nav Bar */
 .navBarWrapper {
   width: 100%;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
+.right
 }
 
 .bar {
@@ -45,6 +38,14 @@ a.squiffy-header-link
     text-decoration: bold;
     cursor: pointer;
 }
+
+div#left {
+    float: left;
+    }
+
+div#right {
+    float: right;
+    }
 
 div#background
 {
