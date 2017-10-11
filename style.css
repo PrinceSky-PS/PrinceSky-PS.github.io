@@ -24,13 +24,13 @@ body
 a.squiffy-link
 {
     text-decoration: underline;
-    color: red;
+    color: brown;
     cursor: pointer;
 }
 a.squiffy-link.disabled
 {
     text-decoration: none;
-    color: white !important;
+    color: black !important;
     cursor: inherit;
 }
 a.gamebook-title
