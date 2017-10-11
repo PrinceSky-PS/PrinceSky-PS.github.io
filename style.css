@@ -46,7 +46,13 @@ a.squiffy-link.disabled
 {
     text-decoration: none;
     color: black !important;
-    cursor: inherit;
+    cursor: inherit; 
+	background: none; 
+	padding: none;
+	box-shadow: none;
+	text-shadow: none;
+	border: none; 
+	border-radius: none;
 }
 a.gamebook-title
 {
