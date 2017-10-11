@@ -1,5 +1,3 @@
-// Created with Squiffy 5.1.0
-// https://github.com/textadventures/squiffy
 
 (function(){
 /* jshint quotmark: single */
@@ -760,7 +758,8 @@ squiffy.story.sections = {
 			},
 		},
 	},
-	'Click Me!': {
+	'Click Me!': { 
+		'clear': true,
 		'text': "<center><b>Your Team:\n<br><br>\nActive:\n<br><br>\nCharmander:</b> <i>male, naïve, often scatters things, likes sweet food, fire type, Blaze ability, known moves are Scratch, Growl and Ember.</i>\n<br><br>\n<b>Dean&#39;s Team:\n<br><br>\nActive:\n<br><br>\nSquirtle:</b><i> male, rash, often goes inside it&#39;s shell, likes to eat, water type, Torrent ability, known moves are Tackle and Tail Whip.</i></center><br><br>\n<i>Why don&#39;t you go back <a class=\"squiffy-link link-section\" data-section=\"home\" role=\"link\" tabindex=\"0\">home</a>?, even if the story ends here.</i>\n<br><br>\n<center><b>Thanks for reading and for giving your precious reviews.</b></center>",
 		'passages': {
 		},
