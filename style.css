@@ -54,26 +54,21 @@ a.squiffy-link.disabled
 	border: none; 
 	border-radius: none;
 }
-a.gamebook-title
-{
-    text-aligen: left;
-    text-decoration: bold;
-    cursor: pointer;
-    }
+
 a.squiffy-header-link
 {
     text-decoration: bold;
     text-align: right;
     cursor: pointer;
 }
-
-div#left {
-    float: left;
-    }
-
-div#right {
-    float: right;
-    }
+div#custom-header
+{ 
+	display: block;
+	background: #016453; 
+	max-width: 100%; 
+	height: auto; color: white; 
+	text-decoration: bold;
+}
 
 div#background
 {
