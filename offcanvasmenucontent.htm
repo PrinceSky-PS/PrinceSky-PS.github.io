@@ -1,6 +1,18 @@
 <input type="checkbox" id="togglebox" />
 <input type="checkbox" id="checkedselectorsupport" checked="checked" />
-
+<script>
+			jQuery(function($){
+				$('#squiffy').squiffy();
+				var restart = function () {
+					$('#squiffy').squiffy('restart');
+				};
+				$('#restart').click(restart);
+				$('#restart').keypress(function (e) {
+					if (e.which !== 13) return;
+					restart();
+				});
+			});
+		</script>
 <nav id="offcanvas-menu">
 
 <label for="togglebox" id="closex">Close</label>
