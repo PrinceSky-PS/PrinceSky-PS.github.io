@@ -626,7 +626,7 @@ var set = squiffy.set;
 
 
 squiffy.story.start = '_default';
-squiffy.story.id = '0b5c015f63';
+squiffy.story.id = '0000bb17ee';
 squiffy.story.sections = {
 	'_default': {
 		'text': "<p>Welcome. This is a world inhabited not only by humans, but also by the mysterious and wonderful creatures known as pokémon. Roaming the land, swimming in the ocean, soaring through the skies, in towns and even in people&#39;s homes, pokémon can be found everywhere. In most cases, people and pokémon live together in harmony, helping each other and keeping each other company. Many people travel the world, befriending and capturing wild pokémon and battling with them against others like them in friendly competitions. These are the pokémon trainers. Be it in groups or alone with just their pokémon, most trainers travel across the many regions of the pokémon world, seeking to improve their skills by challenging the pokémon gyms in the towns and cities they visit and aim to participate in the prestigious pokémon leagues that each region hosts.\n<br><br></p>\n<center><b><a class=\"squiffy-link link-section\" data-section=\"Play As James Barton\" role=\"link\" tabindex=\"0\">Play As James Barton</a></b></center>",
@@ -682,7 +682,7 @@ squiffy.story.sections = {
 		'text': "<p><i>While heading towards the pokèmon lab, <b>James</b> heard someone shouting HELP.</i>\n<br><br>\n&quot;<a class=\"squiffy-link link-passage\" data-passage=\"Someone\" role=\"link\" tabindex=\"0\">Someone</a>&quot;</p>",
 		'passages': {
 			'Someone': {
-				'text': "<p>&quot;Someone is in trouble, I most help!&quot; <i><b>James</b> though, as he ran towards <a class=\"squiffy-link link-passage\" data-passage=\"route 1\" role=\"link\" tabindex=\"0\">route 1</a>.</i></p>",
+				'text': "<p>&quot;Someone is in trouble, I must help!&quot; <i><b>James</b> though, as he ran towards <a class=\"squiffy-link link-passage\" data-passage=\"route 1\" role=\"link\" tabindex=\"0\">route 1</a>.</i></p>",
 			},
 			'route 1': {
 				'text': "<p><i>He reached route 1 and  saw group of pidgey&#39;s attacking an unknown girl.</b>\n<br><br>\n&quot;I must help her!&quot; <i><b>He</b> said, picking up a stone.</i>\n<br><br>\n&quot;<a class=\"squiffy-link link-passage\" data-passage=\"Run!\" role=\"link\" tabindex=\"0\">Run!</a>&quot;</p>",
