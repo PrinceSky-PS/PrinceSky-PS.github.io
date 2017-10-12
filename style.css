@@ -152,13 +152,13 @@ div#squiffy-container
 div#squiffy-header
 {
     font-size: 16px;
-    background: #c1f2bc;
+    background: #FFF;
     text-align: right;
 }
 div#squiffy
 {
-    font-size: 18px;
-    background: #FFF;
+    font-size: 16px;
+    background: yellow;
 }
 hr {
     border: 0;
