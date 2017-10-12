@@ -42,9 +42,9 @@ a.squiffy-link
 }
 
 .bar {
-  background: #000;
+  background: #c1f2bc;
   overflow: auto;
-  color: white;
+  color: black;
   text-decoration: bold;
 -webkit-box-shadow: 0 10px 6px -6px #777;
 -moz-box-shadow: 0 10px 6px -6px #777;
