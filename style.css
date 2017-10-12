@@ -1,6 +1,6 @@
 body
 {
-    background: #1abc9c;
+    background: #ecfbea;
     margin: 0;
 }
 
@@ -131,7 +131,7 @@ custom-header
 div#background
 {
     max-width: 100%;
-    background: #1abc9c;
+    background: #ecfbea;
     margin: 0;
     color: black;
 }
