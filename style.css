@@ -1,6 +1,6 @@
 body
 {
-    background: #ecfbea;
+    background: #c1f2bc;
     margin: 0;
 }
 
@@ -131,7 +131,7 @@ custom-header
 div#background
 {
     max-width: 100%;
-    background: #ecfbea;
+    background: #c1f2bc;
     margin: 0;
     color: black;
 }
@@ -139,7 +139,7 @@ div#background
 div#squiffy-container
 {
     max-width: 100%;
-    background: #ecfbea;
+    background: #c1f2bc;
     padding: 20px;
     margin-top: 30px;
     color: black;
@@ -152,13 +152,13 @@ div#squiffy-container
 div#squiffy-header
 {
     font-size: 16px;
-    background: #1abc9c;
+    background: #c1f2bc;
     text-align: right;
 }
 div#squiffy
 {
     font-size: 18px;
-    background: #1abc9c;
+    background: #c1f2bc;
 }
 hr {
     border: 0;
@@ -170,7 +170,7 @@ hr {
 
 .footer {
     max-width: 100%
-    background: black;
+    background: #c1f2bc;
     color: white;
     }
 .footer li {
