@@ -1,11 +1,8 @@
-/*body
+body
 {
-    background: #c1f2bc;
+    max-width: 100%;
     margin: 0;
--webkit-box-shadow: 0 10px 6px -6px #777;
--moz-box-shadow: 0 10px 6px -6px #777;
- box-shadow: 0 10px 6px -6px #777;
-}*/
+}
 
 .css-input {
 	font-size: 14px; 
@@ -30,7 +27,7 @@ a.squiffy-link
 
 /* Top Header CSS */
 .navBarWrapper {
-  width: 100%;
+  max-width: 100%;
 }
 
 .left {
