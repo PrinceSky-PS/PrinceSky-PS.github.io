@@ -1,44 +1,65 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body { 
+	background-image: url("https://images4.alphacoders.com/661/661582.png"); 
+	background-color: rgba(0, 0, 0, 0.2);
+	max-width: 100%; 
+	margin: 0;
+}
+a:link {
+    color: red;
+    text-decoration:  none;
+    font-weight: bold;
 }
 
-html, body {
-  height: 100vh;
-  background: radial-gradient(circle at top center, #333 0%, #111 100%);
-  overflow: hidden;
+/* visited link */
+a:visited {
+    color: red;
+    text-decoration:  none;
+    font-weight: bold;
 }
 
-.wrapper {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  width: 400px;
-  margin-left: -200px;
-  font: 300 30px/1 'Open Sans Condensed', sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  animation: 60s credits linear infinite;
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration:  none;
+    font-weight: bold;
 }
 
-.movie {
-  margin-bottom: 50px;
-  font-size: 50px;
+div#background
+{
+    max-width: 100%;
+    background: #FFF;
+    margin: 0;
+    color: black;
 }
 
-.job {
-  margin-bottom: 5px;
-  font-size: 18px;
+div#squiffy-container
+{
+    max-width: 100%;
+    background: #FFF;
+    padding: 20px;
+    margin-top: 30px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, serif;
+    -webkit-box-shadow: 4pxpx 4pxpx 4pxpx 4pxpx #0D0D0D;
+    box-shadow: 4pxpx 4pxpx 4pxpx 4pxpx #0D0D0D;
 }
-
-.name {
-  margin-bottom: 50px;
-  font-size: 35px;
+div#squiffy-header
+{
+    font-size: 16px;
+    background: #FFF;
+    text-align: right;
 }
-
-@keyframes credits {
-    0% { top:  100%; }
+div#squiffy
+{
+    font-size: 16px;
+    background: FFF;
+}
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 16px; margin-bottom: 16px;
+}
