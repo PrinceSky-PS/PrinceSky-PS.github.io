@@ -1,5 +1,3 @@
-// Off Canvas Side Bar Menu- by JavaScript Kit (www.javascriptkit.com)
-// Last modified: May 11th, 15'
 
 
 document.createElement("nav") // create "nav" element so CSS styles get properly applied to the menu's nav element in older IE browsers
