@@ -626,7 +626,7 @@ var set = squiffy.set;
 
 
 squiffy.story.start = '_default';
-squiffy.story.id = 'd1067c16e4';
+squiffy.story.id = '0b5c015f63';
 squiffy.story.sections = {
 	'_default': {
 		'text': "<p>Welcome. This is a world inhabited not only by humans, but also by the mysterious and wonderful creatures known as pokémon. Roaming the land, swimming in the ocean, soaring through the skies, in towns and even in people&#39;s homes, pokémon can be found everywhere. In most cases, people and pokémon live together in harmony, helping each other and keeping each other company. Many people travel the world, befriending and capturing wild pokémon and battling with them against others like them in friendly competitions. These are the pokémon trainers. Be it in groups or alone with just their pokémon, most trainers travel across the many regions of the pokémon world, seeking to improve their skills by challenging the pokémon gyms in the towns and cities they visit and aim to participate in the prestigious pokémon leagues that each region hosts.\n<br><br></p>\n<center><b><a class=\"squiffy-link link-section\" data-section=\"Play As James Barton\" role=\"link\" tabindex=\"0\">Play As James Barton</a></b></center>",
@@ -725,7 +725,7 @@ squiffy.story.sections = {
 		'text': "<p>&quot;Do you want to travel with me Charmander?.&quot; <i><b>James</b> asked while patting charmander on head.</i>\n<br><br>\n&quot;Chaaar!&quot; <i>Charmander gave an eager nod in response.</i> \n<br><br>\n&quot;It looks like charmander want to travel with you,&#39; <i><b>Oak</b> remarked with a smile.</i>\n<br><br>\n&quot;Though make sure that you take care when handling him.&quot; <i>he handed you the charmander&#39;s <a class=\"squiffy-link link-passage\" data-passage=\"pokeball\" role=\"link\" tabindex=\"0\">pokeball</a>.</i></p>",
 		'passages': {
 			'pokeball': {
-				'text': "<p><center><b><i>James recevied charmander&#39;s pokèball from Professor Oak.</i></b></center>\n<br><br>\n&quot;Great!&quot; <i>He grinned. </i>\n<br><br>\n&quot;Before I forget,&quot;<i> he said.</i> &quot;here are your <a class=\"squiffy-link link-passage\" data-passage=\"trainer\" role=\"link\" tabindex=\"0\">trainer</a> cards.&quot;</p>",
+				'text': "<p><center><b><i>James recevied charmander&#39;s pokèball from Professor Oak.</i></b></center>\n<br><br>\n&quot;Great!&quot; <i>He grinned. </i>\n<br><br>\n&quot;Before I forget,&quot;<i> he said.</i> &quot;here are your <a class=\"squiffy-link link-section\" data-section=\"trainer\" role=\"link\" tabindex=\"0\">trainer</a> cards.&quot;</p>",
 			},
 		},
 	},
