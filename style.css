@@ -2,6 +2,9 @@ body
 {
     background: #c1f2bc;
     margin: 0;
+-webkit-box-shadow: 0 10px 6px -6px #777;
+-moz-box-shadow: 0 10px 6px -6px #777;
+ box-shadow: 0 10px 6px -6px #777;
 }
 
 .css-input {
@@ -46,11 +49,7 @@ a.squiffy-link
   overflow: auto;
   color: black;
   text-decoration: bold;
--webkit-box-shadow: 0 10px 6px -6px #777;
--moz-box-shadow: 0 10px 6px -6px #777;
- box-shadow: 0 10px 6px -6px #777;
 }
-
 .bar li {
   display: inline-block;
 }
