@@ -34,6 +34,9 @@ a.squiffy-link
   float: left;
 }
 
+.center {
+	float: center; 
+}
 .right {
   float: right;
 }
