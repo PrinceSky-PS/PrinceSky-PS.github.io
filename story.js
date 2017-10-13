@@ -1,9 +1,10 @@
+// Created with Squiffy 5.1.0
+// https://github.com/textadventures/squiffy
 
 (function(){
 /* jshint quotmark: single */
 /* jshint evil: true */
 
-	
 var squiffy = {};
 
 (function () {
@@ -625,7 +626,7 @@ var set = squiffy.set;
 
 
 squiffy.story.start = '_default';
-squiffy.story.id = '68617fbcdd';
+squiffy.story.id = '0e850cadab';
 squiffy.story.sections = {
 	'_default': {
 		'text': "<p>Welcome. This is a world inhabited not only by humans, but also by the mysterious and wonderful creatures known as pokémon. Roaming the land, swimming in the ocean, soaring through the skies, in towns and even in people&#39;s homes, pokémon can be found everywhere. In most cases, people and pokémon live together in harmony, helping each other and keeping each other company. Many people travel the world, befriending and capturing wild pokémon and battling with them against others like them in friendly competitions. These are the pokémon trainers. Be it in groups or alone with just their pokémon, most trainers travel across the many regions of the pokémon world, seeking to improve their skills by challenging the pokémon gyms in the towns and cities they visit and aim to participate in the prestigious pokémon leagues that each region hosts.\n<br><br></p>\n<center><b><a class=\"squiffy-link link-section\" data-section=\"Play As James Barton\" role=\"link\" tabindex=\"0\">Play As James Barton</a></b></center>",
@@ -651,6 +652,9 @@ squiffy.story.sections = {
 	},
 	'Open Gift Box': {
 		'text': "<p><center><b><i>James opened the gift box</i></b></center>\n<br><br>\n&quot;Alright,&quot; <i>He nodded, as he took out the mustard red T-shirt and the pair of dark blue jeans from the pile.</i>\n<br><br>\n&quot;Do you need a jacket?&quot; <i><b>Will</b> asked.</i>\n<br><br>\n&quot;No thanks, it&#39;s only april&quot;\n<br><br>\n<i><b>Will</b> showed <b>James</b> an unzipped dark blue colored jacket.</i>&quot;It was a gift from serena, Are you sure you don&#39;t want it?&quot; <i><b>Will</b> said teasingly</i>\n<br><br>\n&quot;<a class=\"squiffy-link link-passage\" data-passage=\"How\" role=\"link\" tabindex=\"0\">How</a>&quot;</p>",
+		'js': function() {
+			jAlert('This is a custom alert box', 'Alert Dialog');
+		},
 		'passageCount': 1,
 		'passages': {
 			'How': {
@@ -729,7 +733,7 @@ squiffy.story.sections = {
 		},
 	},
 	'trainer': {
-		'text': "<p><br></p>\n<p><center><b><i>James and Dean received trainer card from Professor Oak.</i></b></center>\n<br><br>\n&quot;Thanks professor&quot; <i>He replied.</i>\n<br><br>\n&quot;Take good care of it - you&#39;ll need that to enter any official competitions and get free treatment for your pokemons at pokemon centre.&quot; \n<br><br>\n&quot;Alright,&quot;<i><b> Dean </b>grinned as he recalled Squirtle to his pokeball.</i> &quot;James do you want to battle?&quot;\n<br><br></p>\n<p><center><b> <a class=\"squiffy-link link-section\" data-section=\"Sure\" role=\"link\" tabindex=\"0\">Sure</a> || <a class=\"squiffy-link link-passage\" data-passage=\"No\" role=\"link\" tabindex=\"0\">No</a>].</b></center>\n<br></p>",
+		'text': "<p><br></p>\n<p><center><b><i>James and Dean received trainer card from Professor Oak.</i></b></center>\n<br><br>\n&quot;Thanks professor&quot; <i>He replied.</i>\n<br><br>\n&quot;Take good care of it - you&#39;ll need that to enter any official competitions and get free treatment for your pokemons at pokemon centre.&quot; \n<br><br>\n&quot;Alright,&quot;<i><b> Dean </b>grinned as he recalled Squirtle to his pokeball.</i> &quot;James do you want to battle?&quot;\n<br><br></p>\n<p><center><b> <a class=\"squiffy-link link-section\" data-section=\"Sure\" role=\"link\" tabindex=\"0\">Sure</a> || <a class=\"squiffy-link link-section\" data-section=\"No\" role=\"link\" tabindex=\"0\">No</a>.</b></center>\n<br></p>",
 		'passages': {
 		},
 	},
@@ -769,7 +773,7 @@ squiffy.story.sections = {
 	},
 	'home': {
 		'clear': true,
-		'text': "<center><b>Thanks for playing my gamebook, Feel free to give reviews. :)</b></center>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<p>.</p>",
+		'text': "<center><b>Thanks for playing my gamebook, Feel free to give reviews. :)</b></center>",
 		'passages': {
 		},
 	},
