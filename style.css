@@ -28,7 +28,7 @@ a.squiffy-link
     text-decoration: underline;
     color: dodgerblue;
     cursor: pointer;
-}
+}/*
 a.squiffy-link.link-passage { 
 	text-decoration: underline; 
 	color: DodgerBlue;
@@ -63,7 +63,7 @@ a.squiffy-link.link-section:hover {
   text-decoration: none;
 }
 
-
+*/
 a.squiffy-link.disabled
 {
     text-decoration: none;
