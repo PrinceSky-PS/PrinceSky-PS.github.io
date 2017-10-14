@@ -5,30 +5,6 @@ body {
 	margin: 0;
 }
 
-#jAlert_table, #jAlert_th, #jAlert_td{
-    border: 2px solid blue;
-    background-color:lightblue;
-    border-collapse: collapse;
-    width=100px;
-}
-
-#jAlert_th, #jAlert_td{
-    padding:5px;
-    padding-right:10px;
-    padding-left:10px;
-}
-
-#jAlert{
-    /* Position fixed */
-    position:fixed;
-    /* Center it! */
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -100px;
-}
-<
-
 a:link {
     color: red;
     text-decoration:  none;
@@ -146,6 +122,33 @@ div#squiffy
     font-size: 16px;
     background: FFF;
 }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 hr {
     border: 0;
     height: 0;
