@@ -1,5 +1,4 @@
-// Created with Squiffy 5.1.0
-// https://github.com/textadventures/squiffy
+
 
 (function(){
 /* jshint quotmark: single */
@@ -679,7 +678,9 @@ squiffy.story.sections = {
 	},
 	'pokemon lab': {
 		'clear': true,
-		'text': "<p><i>While heading towards the pokèmon lab, <b>James</b> heard someone shouting HELP.</i>\n<br><br>\n&quot;<a class=\"squiffy-link link-passage\" data-passage=\"Someone\" role=\"link\" tabindex=\"0\">Someone</a>&quot;</p>",
+		'text': "<p><i><div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div> While heading towards the pokèmon lab, <b>James</b> heard someone shouting HELP.</i>\n<br><br>\n&quot;<a class=\"squiffy-link link-passage\" data-passage=\"Someone\" role=\"link\" tabindex=\"0\">Someone</a>&quot;</p>",
 		'passages': {
 			'Someone': {
 				'text': "<p>&quot;Someone is in trouble, I must help!&quot; <i><b>James</b> though, as he ran towards <a class=\"squiffy-link link-passage\" data-passage=\"route 1\" role=\"link\" tabindex=\"0\">route 1</a>.</i></p>",
