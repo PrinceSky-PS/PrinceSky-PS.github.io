@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<script src="jquery.min.js"></script> 
+		<script src="menu.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+		<link rel="stylesheet" href="style.css"/> 
+		<link rel="stylesheet" href="menu.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+   	<header class="header-user-dropdown">
+		<div id="mySidenav" class="sidenav">
+    
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+  <a href="http://princesky-ps.github.io">Home</a>
+  <a href="https://us21.chatzy.com/68999784503014#0">Chat</a>
+  <a href="http://github.com/PrinceSky-PS/PrinceSky-PS.github.io">Github Repo</a>		
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><h3><center><font face="Sofia" color="white"><b>Pokèmon GameBook</b></font></center></h3></span>
+	</div>
+	</header>
+  </head>
+  <body>
+  <center><b><u>Give Player Choice To Enter His/Her Name</u></b></center>
+ <div class="w3-panel w3-leftbar w3-light-grey">
+  <p class="w3-xlarge w3-serif">
+  [[Intro]]:<br>
+  @clear<br>
+  Hi there, It's me <b>Your Name</b> creator of the <b>gamebook name</b><br><br>
+  I know, You're boy and your name is.....<br>
+  Uh, I forget your name!.<br><br>
+  Can you tell me what was your name again?.
+  <br><br>
+  [[First Name]](FirstName)
+  [[FirstName]]:
+ <br>
+    $(document).on("click", "#enter-name", function () <br>
+    {<br>
+        var person1 = prompt("Please enter your name", "");<br>
+        document.getElementById("name1").innerHTML =<br>
+        "Your first name is " + person1 + "";<br>
+        squiffy.set ("globalfirstname", person1);<br>
+    }<br>
+    );
+ <br><br>
+<button id="enter-name">Enter First name</button>
+<p id="name1"></p>
+ <br><br>[[Last Name]](LastName)<br><br>
+[[LastName]]:   <br>     
+    $(document).on("click", "#enter-name1", function () <br>
+    {<br>
+        var person2 = prompt("Please enter your name", "");<br>
+        document.getElementById("name2").innerHTML =<br>
+        "Your Last name is " + person2 + "";<br>
+        squiffy.set ("globallastname", person2);<br>
+    }<br>
+    );<br><br>
+ 
+<button id="enter-name1">Enter Last name</button>
+<p id="name2"></p>  <br><br>
+So, your name is {globalfirstname} {globallastname}<br><br>
+[[Yes]](start game)<br>
+[[start game]]:<br>
+Yay! WE DID IT.<br></div>
+     </body>
+     </head>
+     </html>
