@@ -626,24 +626,24 @@ var set = squiffy.set;
 
 
 squiffy.story.start = 'introduction';
-squiffy.story.id = '30642472c5';
+squiffy.story.id = '9ca93d7c82';
 squiffy.story.sections = {
 	'introduction': {
-		'text': "<center>\nHi there!, It&#39;s me <b>Akash Kumar</b> creator of this interactive pokèmon fanfiction/gamebook.\n<br><br>\nI know, You&#39;re boy and your name is.... <br>Uh, I forget your name!\n<br><br>\nSo, what was your name?</center><br><br>\n<center><b> <a class=\"squiffy-link link-section\" data-section=\"FirstName\" role=\"link\" tabindex=\"0\">FirstName</a></b></center>",
-		'attributes': ["badges= 0","bravery = 0","attitude = 0","honesty = 0"],
+		'text': "<p>Hello Stranger!, It&#39;s me Akash Kumar the creator of this pokèmon gamebook.\n<br><br>\nYou&#39;ll explore the pokèmon world as a boy and your name is.... <br>Uh, I forget your name!\n<br><br>\nWhat was your name again?<br><br></p>\n<center><b> <a class=\"squiffy-link link-section\" data-section=\"First Name\" role=\"link\" tabindex=\"0\">First Name</a></b></center>",
+		'attributes': ["honesty= 0","bravery = 0","coward = 0","liar = 0"],
 		'passages': {
 		},
 	},
-	'FirstName': {
+	'First Name': {
 		'clear': true,
-		'text': "<p><button id=\"enter-name\">Enter First name</button></p>\n<p id=\"name1\"></p>\n\n<p><br><br></p>\n<center><b><a class=\"squiffy-link link-section\" data-section=\"LastName\" role=\"link\" tabindex=\"0\">Last Name</a></b></center>",
+		'text': "<center><button id=\"enter-name\">Enter First name</button>\n<p id=\"name1\"></p></center>\n\n<p><br><br></p>\n<center><b><a class=\"squiffy-link link-section\" data-section=\"LastName\" role=\"link\" tabindex=\"0\">Last Name</a></b></center>",
 		'js': function() {
 			$(document).on("click", "#enter-name", function () 
 			{
-			    var person1 = prompt("Please enter your name", "");
+			    var person1 = prompt("Please enter your first name", "");
 			    document.getElementById("name1").innerHTML =
 			    "Your first name is " + person1 + "";
-			    squiffy.set ("globalfirstname", person1);
+			    squiffy.set ("firstname", person1);
 			}
 			);
 		},
@@ -652,14 +652,14 @@ squiffy.story.sections = {
 	},
 	'LastName': {
 		'clear': true,
-		'text': "<p><button id=\"enter-name1\">Enter Last name</button></p>\n<p id=\"name2\"></p>\n\n<center><b><a class=\"squiffy-link link-section\" data-section=\"fullname\" role=\"link\" tabindex=\"0\">Your Name Is...</a></b></center>",
+		'text': "<center><button id=\"enter-name1\">Enter Last name</button>\n<p id=\"name2\"></p></center>\n<center><b><a class=\"squiffy-link link-section\" data-section=\"fullname\" role=\"link\" tabindex=\"0\">Your Name Is...</a></b></center>",
 		'js': function() {
 			$(document).on("click", "#enter-name1", function () 
 			{
-			    var person2 = prompt("Please enter your name", "");
+			    var person2 = prompt("Please enter your last name", "");
 			    document.getElementById("name2").innerHTML =
 			    "Your Last name is " + person2 + "";
-			    squiffy.set ("globallastname", person2);
+			    squiffy.set ("lastname", person2);
 			}
 			);
 		},
@@ -668,13 +668,40 @@ squiffy.story.sections = {
 	},
 	'fullname': {
 		'clear': true,
-		'text': "<center><b>\nOh so, You&#39;re {globalfirstname} {globallastname}?\n<br><br>\n<a class=\"squiffy-link link-section\" data-section=\"start the game\" role=\"link\" tabindex=\"0\">Yes</a> | <a class=\"squiffy-link link-section\" data-section=\"FirstName\" role=\"link\" tabindex=\"0\">No</a> </b></center>",
+		'text': "<center><b>\nSo, You&#39;re {firstname} {lastname}?\n<br><br>\n<a class=\"squiffy-link link-section\" data-section=\"start the game\" role=\"link\" tabindex=\"0\">Yes</a> | <a class=\"squiffy-link link-section\" data-section=\"First Name\" role=\"link\" tabindex=\"0\">No</a> </b></center>",
+		'js': function() {
+			squiffy.set("map", "World Map");
+			squiffy.set("pokedex", "Pokèdex");
+		},
 		'passages': {
 		},
 	},
 	'start the game': {
-		'text': "<center><b><font color=\"dodgerblue\"><i>+1 Honesty</i></font></b></center>",
-		'attributes': ["honesty+=1"],
+		'clear': true,
+		'text': "<center><i>\nWelcome. This is a world inhabited not only by humans, but also by the mysterious and wonderful creatures known as pokémon. Roaming the land, swimming in the ocean, soaring through the skies, in towns and even in people&#39;s homes, pokémon can be found everywhere. In most cases, people and pokémon live together in harmony, helping each other and keeping each other company. Many people travel the world, befriending and capturing wild pokémon and battling with them against others like them in friendly competitions. These are the pokémon trainers. Be it in groups or alone with just their pokémon, most trainers travel across the many regions of the pokémon world, seeking to improve their skills by challenging the pokémon gyms in the towns and cities they visit and aim to participate in the prestigious pokémon leagues that each region hosts.</i>\n<br><br>\n<b><a class=\"squiffy-link link-section\" data-section=\"start\" role=\"link\" tabindex=\"0\">Let&#39;s Get Started</a></b>\n<br></center>",
+		'passages': {
+		},
+	},
+	'start': {
+		'clear': true,
+		'text': "<p><i> Pallet Town, Kanto\n<br>\n7:45am, 1st April 2005</p>\n<p><br><br>\nThe magnificent spring sun beat down upon the town of Pallet in the south of Kanto. Only a few wispy clouds could be seen as the early birds among the town&#39;s population started appearing outside their houses. A large flock of the tiny bird pokémon, pidgey, soared overhead in the direction of the imposing Mt. Hideaway to the west. The mountain itself still bore some snow, the remnants of the winter, on its highest slopes. The town itself was mostly a deep green color thanks to abundance of trees and flower gardens. There was a slight chill in the air, however - a reminder that it was not yet summer. The peace and quiet of the town was interrupted briefly as a ferry leaving Pallet&#39;s small port in the south sounded its whistle loudly as it set off to sea.\n<br><br>\nIn the north eastern suburbs of the town, inside a rectangular, pale yellow colored house, a ten year old boy was busily getting ready. He scratched his short, dark brown hair, cut the previous day, as he stared at the clothes he&#39;d laid out on his bed. He frowned as he attempted to decide what he should wear. His blue eyes showed his irritation at being unable to make a decision.\n</i><br><br></p>\n<center><b> <button onClick=\"Alert.render('Hi there handsome')\"><a class=\"squiffy-link link-section\" data-section=\"Chapter 1\" role=\"link\" tabindex=\"0\">Chapter 1</a></button></b></center>",
+		'passages': {
+		},
+	},
+	'chapter 1': {
+		'clear': true,
+		'text': "",
+		'passages': {
+			'Show Stats': {
+				'text': "<center>\n<b>Honest:</b> {honesty}\n<br><b>Liar:</b> {liar}\n<br>\n<b>Brave:</b> {bravery}<br>\n<b>Coward:</b> {coward}\n<br>\n</center>",
+			},
+			'Open Bag': {
+				'text': "<center><b>Your bag is empty...</b></center>",
+			},
+		},
+	},
+	'': {
+		'text': "<p><div style=\"float: left\"><a class=\"squiffy-link link-passage\" data-passage=\"Open Bag\" role=\"link\" tabindex=\"0\">Open Bag</a></div></p>\n<p><div style=\"float: right\"><a class=\"squiffy-link link-passage\" data-passage=\"Show Stats\" role=\"link\" tabindex=\"0\">Show Stats</a></div>\n<br><hr></p>",
 		'passages': {
 		},
 	},
