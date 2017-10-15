@@ -34,17 +34,66 @@
 <link href="http://fonts.googleapis.com/css?family=Bitter&subset=latin" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-</head><body>
-	<script>
-function jAlertagree(){
-    var parent = document.getElementById('jAlRem');
-    var child = document.getElementById('jAlert');
-    parent.removeChild(child);
-    document.body.style.backgroundColor="white";
-    document.body.style.cursor="default";
+		<style type="text/css'>
+#alertbox {
+display: none;
+Position: fixed;
+background-color: #000;
+border-radius: 8px;
+max-width: 500px;
+z-index: 10;
+}
+ 
+#alertbox > div > #alertboxhead {
+background: #666;
+font-size: 14px;
+padding: 14px;
+color: #CCC;
+}
+#alertbox > div > #alertboxbody {
+background:#333;
+padding: 20px;
+color: #CCC;
+}
+#alertbox > div > #alertboxfooter {
+background: #666;
+padding: 10px;
+text-align: right;
+ 
+<div id="alertbox">
+<div>
+<div id="alertboxhead">
+<div id="alertboxbody">
+<div id="alertboxfooter">
+</div>
+</div>
+</style>
+<script>
+function CustomAlert () {
+}
+var Alert = New CustomAlert();
+this.render = function (alert) {
+var.winH = window.innerHeight;
+var.winW = window.innerWidth;
+var alertbox = document.getElementById('alertbox');
+alertbox.style.left =(winH/2) - (500 * .5) + "px";
+alertbox.style.top = "100px";
+alertbox.style.display = "block";
+}
+document.getElementById('alertboxhead').innerHTML ="It's me";
+document.getElementById('alertboxbody').innerHTML = alert;
+document.getElementById('alertboxfooter').innerHTML = '<button onClick="alert.ok()">Ok</button>';
+this.ok = function () {
+document.getElementById('alertbox').style.display = "none";
 }
 </script>
+
+</head><body>
+	<div id="alertbox">
+	<div id="alertboxhead"></div>
+	<div id="alertboxbody"></div>
+	<div id="alertboxfooter"></div>
+	</div>
 	<header class="header-user-dropdown">
 		<div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
